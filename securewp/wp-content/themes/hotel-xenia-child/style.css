@@ -10,3 +10,11 @@ Tags: theme-options, translation-ready
 Template: hotel-xenia
 */
 /* DO YOUR STUFF AFTER THIS !!  */
+
+
+@import "font.css";
+
+.test{
+	font-family: 'LibreBaskerville-Bold';
+	color: red;
+}

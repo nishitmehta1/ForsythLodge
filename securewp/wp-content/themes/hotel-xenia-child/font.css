@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'LibreBaskerville-Bold';
+    src: url('css/fonts/LibreBaskerville-Bold/LibreBaskervilleBold.eot');
+    src: url('css/fonts/LibreBaskerville-Bold/LibreBaskervilleBold.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/LibreBaskerville-Bold/LibreBaskervilleBold.woff') format('woff'),
+         url('css/fonts/LibreBaskerville-Bold/LibreBaskervilleBold.ttf') format('truetype'),
+         url('css/fonts/LibreBaskerville-Bold/LibreBaskervilleBold.svg#LibreBaskerville-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'LibreBaskerville-Italic';
+    src: url('css/fonts/LibreBaskerville-Italic/LibreBaskervilleItalic.eot');
+    src: url('css/fonts/LibreBaskerville-Italic/LibreBaskervilleItalic.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/LibreBaskerville-Italic/LibreBaskervilleItalic.woff') format('woff'),
+         url('css/fonts/LibreBaskerville-Italic/LibreBaskervilleItalic.ttf') format('truetype'),
+         url('css/fonts/LibreBaskerville-Italic/LibreBaskervilleItalic.svg#LibreBaskerville-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url('css/fonts/LibreBaskerville-Regular/LibreBaskervilleRegular.eot');
+    src: url('css/fonts/LibreBaskerville-Regular/LibreBaskervilleRegular.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/LibreBaskerville-Regular/LibreBaskervilleRegular.woff') format('woff'),
+         url('css/fonts/LibreBaskerville-Regular/LibreBaskervilleRegular.ttf') format('truetype'),
+         url('css/fonts/LibreBaskerville-Regular/LibreBaskervilleRegular.svg#LibreBaskerville-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

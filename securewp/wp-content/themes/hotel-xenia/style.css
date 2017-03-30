@@ -38,3 +38,7 @@ REQUIRED WORDPRESS STYLES
 /* 
 =================================================================
 */
+
+.test{
+	font-family: 'LibreBaskerville-Bold';
+}
