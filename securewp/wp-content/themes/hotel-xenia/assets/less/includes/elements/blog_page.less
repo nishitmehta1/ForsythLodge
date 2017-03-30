@@ -1,0 +1,73 @@
+/*
+--------------------------------------------------------------  
+ 
+BLOG PAGE LISTING
+
+-------------------------------------------------------------- 
+*/
+
+.blog_post_listed {
+  .blog_post_listed_wrapper { margin-bottom: 48px;}
+  .blog_post_listed_meta {
+    margin-bottom: 24px;
+    figure {
+      &.stretchy_wrapper img { z-index:-1; }
+      margin-bottom: 14px;
+    }
+    a img { margin-bottom: 14px; }
+    span.blog_post_date span {
+        font-size: 13px;
+    }
+    h2, h3, h4 {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      + span {margin-top: 12px;}
+    }
+    p.blog_post_listed_subtitle {
+      font-size: 21px;
+      line-height: 1.2em;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }  
+    span {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 400
+    }
+  }  
+  a.btn { margin-top: 24px; }
+}
+
+.blog_post_listed.sticky .blog_post_listed_wrapper {
+  padding:48px;
+  margin-left: -48px;
+  .light_section;
+}
+
+
+/* - Pagination - */
+
+ul.pagination {
+	li a {
+		background-color: transparent;
+		border:0px;
+		padding: 8px 14px;
+	}
+	li.active a {
+		background-color: transparent;
+		color: @brand-primary !important;
+		&:hover {
+			background-color: transparent;
+		}
+	}
+	li.disabled a,
+	li.active a:focus {
+		background-color: transparent;
+		&:hover {
+			background-color: transparent;
+		}
+	}
+	li a:first-child {
+		background-color: transparent;
+	}
+}

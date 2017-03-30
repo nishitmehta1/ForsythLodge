@@ -1,0 +1,73 @@
+/*** HOVERBOX SHORTCODE ***/
+
+.hoverbox {
+    .hoverbox_tran {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: red;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        -webkit-animation: fadeInDown .4s;
+        animation: fadeInDown .4s;
+        visibility: hidden;
+    }
+    .hoverbox_icon {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        padding: 0 30px;
+        -webkit-animation: fadeInDown .4s;
+        animation: fadeInDown .4s;
+        width: 180px !important;
+    }
+    .hoverbox_title {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        padding: 0 30px;
+        @media only screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+            padding: 0 20px;
+        }        
+        -webkit-animation: fadeInDown .4s;
+        animation: fadeInDown .4s;
+        h2 {
+            font-weight: 700;
+            font-size: 30px;
+              @media only screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+                font-size: 20px;
+              }
+              @media only screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+                font-size: 24px;
+              } 
+        }
+    }
+    .hoverbox_paragraph {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        right: 10px;
+        padding: 0 30px;
+        @media only screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+            padding: 0 20px;
+            font-size: 16px;
+        }  
+        visibility: hidden;
+    }
+    &:hover .hoverbox_tran {
+        visibility: visible;
+        -webkit-animation: fadeInUp .2s;
+        animation: fadeInUp .2s;
+    }
+    &:hover .hoverbox_title {
+        visibility: hidden;
+        -webkit-animation: fadeInUp .4s;
+        animation: fadeInUp .4s;
+    }
+    &:hover .hoverbox_paragraph {
+        visibility: visible;
+        -webkit-animation: fadeInUp .4s;
+        animation: fadeInUp .4s;
+    }
+}

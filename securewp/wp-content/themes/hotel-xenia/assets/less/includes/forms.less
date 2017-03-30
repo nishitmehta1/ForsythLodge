@@ -1,0 +1,496 @@
+/*
+--------------------------------------------------------------  
+ 
+Forms
+
+-------------------------------------------------------------- 
+*/
+
+//@input-height-base: (@button-line-height-computed + (@btn-padding-v * 2) - 1);
+
+.form-control,
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  box-shadow: none;
+  background-color: @form-field-bg;
+  border: 1px solid fade(@form-field-txt, 20%) !important;
+  border-radius: 0px;
+  color: @form-field-txt;
+  font-size: @form-field-font-size;
+  font-weight: normal;
+  //height: @input-height-base;
+  height: auto;
+  margin-bottom: 24px;
+  line-height: @line-height-base;
+  padding: @padding-base-vertical @padding-base-horizontal;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+  &.large_form { padding: (2 * @padding-base-vertical) @padding-base-horizontal; }
+  &:focus {
+    box-shadow: none;
+    border: 1px solid fade(@form-field-txt, 50%) !important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  }
+}
+
+.large_form {
+  .form-control,
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"] {
+    padding: (2 * @padding-base-vertical) @padding-base-horizontal;
+  }  
+}
+
+.extra_large_form {
+  .form-control,
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"] {
+    padding: (3.5 * @padding-base-vertical) @padding-base-horizontal;
+    font-size: 26px !important;
+  font-weight: 200;
+  }
+}
+
+.dark_form {
+  .form-control,
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"] {
+    background-color: #1F1F2C;
+    border: 1px solid #1F1F2C !important;
+    color: #ffffff;
+  }  
+}
+
+.centered_form {
+  .form-control,
+  select,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"] {
+    text-align: center;
+  }  
+}
+
+select {
+  .placeholder_styling;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  max-width: 100%;
+}
+
+select[multiple], select[size] {
+    min-height: 120px;
+}
+
+.select_wrapper {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  &:after {
+    content:"↓";
+    text-align: center;
+    //padding: 35px 195px;
+    font-size: 20px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    color: @form-field-txt;
+    right: 0px;
+    top: 2px;
+    opacity: .8;
+    pointer-events: none;
+  }
+}
+
+.dark_form .select_wrapper {
+  &:after {
+    color: #ffffff;
+  }
+}
+
+.large_form .select_wrapper {
+  &:after {
+    top: 8px;
+  }
+}
+
+.extra_large_form .select_wrapper {
+    &:after {
+      top: 10px;
+    }
+}
+
+label {
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button:not([class*="btn-"]) {
+  border-color:inherit;
+  backface-visibility: hidden;
+  background-color: @body-bg;
+  background-image: none;
+  border: 1px solid @text-color;
+  border-radius: 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  color: @text-color !important;
+  display: inline-block;
+  font-size: @btn-font-size;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: @btn-padding-v @btn-padding-h;
+  position: relative;
+  text-align: center;
+  text-transform: @btn-text-transform;
+  transform: translateZ(0px);
+  transition-duration: 0.3s;
+  transition-property: color;
+  vertical-align: middle;
+  &:before {
+    background: @text-color none repeat scroll 0 0 !important;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleY(0);
+    transform-origin: 50% 100% 0;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    z-index: -1;
+  }
+  &:hover:before {.prefixed(transform, scaleY(1));}
+  &:hover {color: @body-bg !important;}
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  &:hover {background-color: @text-color;}
+}
+
+.input-group-btn .btn {
+  padding-top: ceil(@padding-base-vertical + ((@form-field-font-size - @btn-font-size) / 2));
+  padding-bottom: ceil(@padding-base-vertical + ((@form-field-font-size - @btn-font-size) / 2));
+}
+
+.large_form .input-group-btn .btn {
+  padding-top: ceil( 2 * (@padding-base-vertical + (floor((@form-field-font-size - @btn-font-size) / 2))));
+  padding-bottom: ceil( 2 * (@padding-base-vertical + (floor((@form-field-font-size - @btn-font-size) / 2))));
+}
+
+input[type="color"] { padding: 0; }
+
+input[type="checkbox"],
+input[type="radio"] { height: auto; display: inline-block; }
+
+.radio, .checkbox { padding-left: 20px; }
+
+input[type="number"] { 
+  max-width: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background-image:none; 
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    margin: 0;
+  }
+}
+
+span.spinner {
+  font-family: Helvetica, Arial, serif;
+  cursor: pointer;
+  display: inline-block;
+  height: @input-height-base - 4;
+  line-height: @input-height-base - 7;
+  width: 30px;
+  text-align: center;
+  background-color: #323232;
+  color: #fff;
+  padding: 0 @btn-padding-v;
+  vertical-align: middle;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+}
+
+.placeholder_styling {
+  text-transform: uppercase;
+  font-size: @btn-font-size !important;
+  color: @form-field-txt;
+  .theme_transition;
+}
+
+.placeholder_styling_xl {
+  text-transform: none;
+  .theme_transition;
+  font-size: 26px !important;
+  @media only screen and (max-width: @screen-sm-max) {
+    font-size: 18px !important;
+  }
+  @media only screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    font-size: 22px !important;
+  } 
+  font-weight: 200;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+input, textarea, .form-control {
+  &::-webkit-input-placeholder {
+    .placeholder_styling;
+  }
+  &:focus::-webkit-input-placeholder {
+      opacity: 0.3;
+  }
+}
+
+.dark_form {
+  input, textarea, .form-control {
+    &::-webkit-input-placeholder {
+      color: #fff;
+    }
+  }
+}
+
+.centered_form {
+  input, textarea, .form-control {
+    &::-webkit-input-placeholder {
+      text-align: center;
+    }
+  }
+}
+
+.extra_large_form {
+  input, textarea, .form-control {
+    &::-webkit-input-placeholder {
+      .placeholder_styling_xl;
+    }
+  }
+}
+
+input, textarea, .form-control {
+  &::-moz-placeholder {
+    .placeholder_styling;
+  }
+  &:focus::-moz-placeholder {
+      opacity: 0.3;
+  }
+}
+
+.dark_form {
+  input, textarea, .form-control {
+    &::-moz-placeholder {
+      color: #fff;
+    }
+  }
+}
+
+.centered_form {
+  input, textarea, .form-control {
+    &::-moz-placeholder {
+      text-align: center;
+    }
+  }
+}
+
+.extra_large_form {
+  input, textarea, .form-control {
+    &::-moz-placeholder {
+      .placeholder_styling_xl;
+    }
+  }
+}
+
+input, textarea, .form-control {
+  &:-ms-input-placeholder {
+    .placeholder_styling;
+  }
+  &:focus:-ms-input-placeholder {
+      opacity: 0.3;
+  }
+}
+
+.dark_form {
+  input, textarea, .form-control {
+    &:-ms-input-placeholder {
+      color: #fff;
+    }
+  }
+}
+
+.centered_form {
+  input, textarea, .form-control {
+    &:-ms-input-placeholder {
+      text-align: center;
+    }
+  }
+}
+
+.extra_large_form {
+  input, textarea, .form-control {
+    &:-ms-input-placeholder {
+      .placeholder_styling_xl;
+    }
+  }
+}
+
+/* Jquery UI Datepicker Overrides */
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br,
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl,
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr,
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0px;
+}
+.ui-widget-header {
+    background: none;
+    border: 0px;
+}
+.ui-datepicker .ui-datepicker-title select {
+    border: medium none !important;
+    font-size: 14px;
+    margin: 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none;;
+    border: 1px solid #d3d3d3;
+    color: #555;
+    font-weight: normal;
+font-size: 14px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+.ui-widget-content {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #222;
+}
+.ui-widget {
+    font-family: inherit;
+    font-size: 1.1em;
+}
+.ui-datepicker {
+    padding: 10px;
+}
+
+/* CF7 messages styling */
+
+div.wpcf7-validation-errors {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  border: none;
+}
+div.wpcf7-mail-sent-ok {
+  background-color: #398f14;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  border: none;
+}
+div.wpcf7-response-output {
+    margin: 1em 0;
+    padding: 1em;
+}
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -20px;
+}

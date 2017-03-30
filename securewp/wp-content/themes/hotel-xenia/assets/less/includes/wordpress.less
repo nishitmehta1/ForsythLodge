@@ -1,0 +1,47 @@
+/* 
+ =WP General Styles
+ -------------------------------------------------------------- 
+*/
+
+.aligncenter{ display:block;  margin-left:auto; margin-right:auto;}
+.alignright{ float:right;  margin:0px 0 10px 10px;}
+.alignleft{ float:left;  margin:0px 10px 10px 0;}
+.floatleft{ float:left;}
+.floatright{ float:right;}
+.textcenter{ text-align:center;}
+.textright{ text-align:right;}
+.textleft{ text-align:left;}
+.wp-caption,
+.gallery-caption {
+  font-size:13px;
+  border-radius: 0;
+  margin-bottom: 5px;
+  max-width: 100%;
+  img{ margin:0;  padding:0;  border:0 none; max-width: 100%;height: auto!important;}
+  p.wp-caption-text{ //background-color: #fff; 
+    line-height:17px;  padding:5px;  margin:0; text-align: center; }
+}
+.wp-smiley{margin:0 !important; max-height:1em}
+
+.gallery dl.gallery-item img {border: none !important;}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+
+/* 
+ =Admin-bar Fix
+ -------------------------------------------------------------- 
+*/
+
+body.admin-bar.sticky_header .overflow_wrapper,
+body.admin-bar.sticky_header .header {
+    margin-top: 30px;
+}

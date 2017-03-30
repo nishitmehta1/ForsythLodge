@@ -1,0 +1,34 @@
+// ------ PRETTY PHOTO LIGHTBOX STYLING --------//
+
+div.pp_default .pp_content {
+    background-color: transparent !important;
+}
+
+.pp_top, .pp_bottom { display: none; }
+
+div.pp_default .pp_content_container .pp_left,
+div.pp_default .pp_content_container .pp_right {
+    background: none !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+div.pp_default .pp_loaderIcon {
+    background: transparent url("../../../images/ring.gif") no-repeat scroll center center !important;
+}
+.pp_loaderIcon {
+    height: 146px !important;
+    left: 50% !important;
+    margin: -73px 0 0 -73px !important;
+    width: 146px !important;
+}
+
+div.pp_overlay { opacity: 0.8 !important; }
+
+div.pp_default .pp_nav .pp_pause, div.pp_default .pp_nav .pp_play,
+div.pp_default a.pp_arrow_next, div.pp_default a.pp_arrow_previous,
+div.pp_default .pp_close,
+div.pp_default .pp_contract,
+div.pp_default .pp_expand {
+    background-image: url("../../../images/sprite.png") !important;
+}

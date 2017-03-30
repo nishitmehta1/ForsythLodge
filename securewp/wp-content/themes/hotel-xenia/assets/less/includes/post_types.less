@@ -1,0 +1,39 @@
+@import './includes/elements/blog_page.less';
+@import './includes/elements/post_single.less';
+@import './includes/elements/room_single.less';
+@import './includes/elements/service_single.less';
+
+.room_single_navi,
+.service_single_navi,
+.post_single_navi,
+.product_single_navi {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	position: relative;
+	a span.previous_icon {
+		position: absolute;
+		left: 10px;
+		top: 0;
+		&::before {
+		    content: "←";
+		    font-size: 23px;
+		}
+	}
+	a span.next_icon {
+		position: absolute;
+		right: 10px;
+		top: 0;
+		&::after {
+		    content: "→";
+		    font-size: 23px;
+		}
+	}
+}
+
+.previous_icon::before {
+    content: "←";
+    display: inline-block;
+    font-size: 23px;
+    margin-right: 14px;
+    transition: all 0.2s ease-in-out 0s;
+}

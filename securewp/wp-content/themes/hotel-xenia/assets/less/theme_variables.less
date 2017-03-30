@@ -1,0 +1,292 @@
+/*!
+ ______ _____   _______ _______ _______ _______ ______ _______ 
+|   __ \     |_|    ___|_     _|   |   |       |   __ \   _   |
+|    __/       |    ___| |   | |       |   -   |      <       |
+|___|  |_______|_______| |___| |___|___|_______|___|__|___|___|
+
+P L E T H O R A T H E M E S . C O M                    (c) 2016
+                        
+Theme Name: HOTEL XENIA
+THEME's VARIABLES v.1.0
+=============================================================== 
+*/
+
+//== WP CONTROLLED VARIABLES >>>>>>>>>>>>
+
+//== THEME OPTIONS > GENERAL > BASIC COLORS & COLOR SET OPTIONS
+
+// Basic Colors
+@brand-primary 							: @wp-brand-primary;
+@brand-secondary 						: @wp-brand-secondary;
+@body-bg 								: @wp-body-bg;
+@text-color 							: @wp-text-color;
+@link-color 							: @wp-link-color;
+@link-hover-color 						: @wp-link-hover-color;
+
+// Primary Color Set
+@primary-section-txtcolor        		: @wp-primary-section-txtcolor;
+@primary-section-linkcolor       		: @wp-primary-section-linkcolor;
+@primary-section-linkcolor-hover 		: @wp-primary-section-linkcolor-hover;
+
+// Secondary Color Set
+@secondary-section-txtcolor        		: @wp-secondary-section-txtcolor;
+@secondary-section-linkcolor       		: @wp-secondary-section-linkcolor;
+@secondary-section-linkcolor-hover 		: @wp-secondary-section-linkcolor-hover;
+
+// Light Color Set
+@light-section-bgcolor         			: @wp-light-section-bgcolor;
+@light-section-txtcolor        			: @wp-light-section-txtcolor;
+@light-section-linkcolor       			: @wp-light-section-linkcolor;
+@light-section-linkcolor-hover 			: @wp-light-section-linkcolor-hover;
+
+// Dark Color Set
+@dark-section-bgcolor         			: @wp-dark-section-bgcolor;
+@dark-section-txtcolor        			: @wp-dark-section-txtcolor;
+@dark-section-linkcolor       			: @wp-dark-section-linkcolor;
+@dark-section-linkcolor-hover 			: @wp-dark-section-linkcolor-hover;
+
+// White Color Set
+@white-section-bgcolor         			: @wp-white-section-bgcolor;
+@white-section-txtcolor        			: @wp-white-section-txtcolor;
+@white-section-linkcolor       			: @wp-white-section-linkcolor;
+@white-section-linkcolor-hover 			: @wp-white-section-linkcolor-hover;
+
+// Black Color Set
+@black-section-bgcolor         			: @wp-black-section-bgcolor; // You might want to lighten your Black a little :)
+@black-section-txtcolor        			: @wp-black-section-txtcolor;
+@black-section-linkcolor       			: @wp-black-section-linkcolor;
+@black-section-linkcolor-hover 			: @wp-black-section-linkcolor-hover;
+
+//== THEME OPTIONS > GENERAL > TYPOGRAPHY
+
+@font-family-sans-serif					: @wp-font-family-sans-serif, sans-serif;
+@font-family-alternative 				: @wp-font-family-alternative, sans-serif;
+@font-size-base 						: @wp-font-size-base;  // Used as a base for the @font-family-sans-serif (body and p)
+@font-size-alternative-base 			: @wp-font-size-alternative-base;  // Used as a base for the @font-family-alternative (Headings, Buttons)
+@body-font-weight						: @wp-font-weight;
+@headings-font-family                   : @font-family-alternative; // @wp-headings-font-family I/O
+@headings-text-transform 				: @wp-headings-text-transform;
+@headings-font-weight 					: @wp-headings-font-weight;
+@btn-font-family                        : @font-family-alternative; // @wp-btn-font-family I/O
+@btn-font-weight                        : 400; // @wp-btn-font-weight
+@btn-text-transform 					: @wp-btn-text-transform;
+@btn-font-size                          : 13px; // @wp-btn-font-size;
+@btn-font-size-large					: 14px;
+@btn-font-size-small					: 12px;
+@btn-font-size-extra-small				: 11px;
+@button-line-height                     : 1.1; // Fixed
+@button-line-height-computed            : floor((@btn-font-size * @button-line-height));
+@btn-padding-v                          : 8px; // Vertical padding for the default button
+@btn-padding-v-lg                       : 12px;
+@btn-padding-v-sm                       : 5px;
+@btn-padding-v-xs                       : 1px;
+@btn-padding-h                          : 24px; // Horizontal padding for the default button
+@btn-padding-h-lg                       : 32px;
+@btn-padding-h-sm                       : 10px;
+@btn-padding-h-xs                       : 5px;
+@form-field-bg							: #fdfdfd;
+@form-field-txt							: #111118;
+@form-field-font-size					: 16px;
+
+//== THEME OPTIONS > GENERAL > MISC
+
+@container-fluid-max-width				: @wp-container-fluid-max-width;
+@section-background-transparency 	  	: @wp-section-background-transparency;
+@loader-bgcolor                         : @wp-loader-bgcolor;
+
+
+//== THEME OPTIONS > HEADER > MAIN SECTION
+
+@header-background-transparency 		: @wp-header-background-transparency;
+@header-bgcolor         	 			: @wp-header-bgcolor;
+@header-linkcolor       	 			: @wp-header-linkcolor;
+@header-linkcolor-hover 				: @wp-header-linkcolor-hover;
+@header-txtcolor        				: @wp-header-txtcolor;
+
+
+//== THEME OPTIONS > HEADER > MAIN SECTION // LOGO
+
+@logo-vertical-margin 					: @wp-logo-vertical-margin;
+@logo-vertical-margin-sm				: @wp-logo-vertical-margin-sm;
+@logo-vertical-margin-xs				: @wp-logo-vertical-margin-xs;
+@logo-img-max-height 					: @wp-logo-img-max-height;
+@logo-img-max-height-sm 				: @wp-logo-img-max-height-sm;
+@logo-img-max-height-xs 				: @wp-logo-img-max-height-xs;
+@logo-font-size 						: @wp-logo-font-size;
+@logo-font-size-sm 						: @wp-logo-font-size-sm;
+@logo-font-size-xs 						: @wp-logo-font-size-xs;
+
+//== THEME OPTIONS > HEADER > MAIN SECTION // NAVIGATION MENU OPTIONS
+
+@menu-font-family                       : @font-family-sans-serif; // @wp-menu-font-family; I/O
+@menu-font-size 						: @wp-menu-font-size;
+@menu-font-weight                       : @wp-menu-font-weight;
+@menu-text-transform                    : @wp-menu-text-transform;
+@menu-item-vertical-padding 			: @wp-menu-item-vertical-padding;
+@menu-item-vertical-padding-md 			: @wp-menu-item-vertical-padding-md;
+@menu-item-vertical-padding-sm 			: @wp-menu-item-vertical-padding-sm;
+@menu-item-horizontal-padding 			: @wp-menu-item-horizontal-padding;
+@menu-item-horizontal-padding-md 		: @wp-menu-item-horizontal-padding-md;
+@menu-item-horizontal-padding-sm 		: @wp-menu-item-horizontal-padding-sm;
+
+//== THEME OPTIONS > HEADER > STICKY HEADER
+
+@stickyheader-opacity       			: @wp-stickyheader-opacity; 
+@stickyheader-bgcolor         			: @wp-stickyheader-bgcolor; 
+@stickyheader-txtcolor        			: @wp-stickyheader-txtcolor;
+@stickyheader-linkcolor       			: @wp-stickyheader-linkcolor;
+@stickyheader-linkcolor-hover 			: @wp-stickyheader-linkcolor-hover;
+
+//== THEME OPTIONS > HEADER > MOBILE NAV
+
+@menu-switch-to-mobile                  : @wp-menu-switch-to-mobile; 
+
+//== THEME OPTIONS > HEADER > MINI TOOLS
+
+@navminitools-switch-to-mobile			: @wp-navminitools-switch-to-mobile; 
+
+//== THEME OPTIONS > HEADER > MINI TOOLS > WOO AJAX CART
+
+@woo-minicart-cart-icon-size			: @wp-woo-minicart-cart-icon-size; 
+@woo-minicart-cart-count-color			: @wp-woo-minicart-cart-count-color; 
+@woo-minicart-cart-count-bgcolor		: @wp-woo-minicart-cart-count-bgcolor;
+@woo-minicart-account-icon-size			: @wp-woo-minicart-account-icon-size;
+
+//== THEME OPTIONS > HEAD PANEL
+
+@head-panel-hgroup-padding-top          : @wp-head-panel-hgroup-padding-top; 
+@head-panel-hgroup-padding-bottom       : @wp-head-panel-hgroup-padding-bottom;
+@head-panel-hgroup-padding-top-sm       : @wp-head-panel-hgroup-padding-top-sm; 
+@head-panel-hgroup-padding-bottom-sm    : @wp-head-panel-hgroup-padding-bottom-sm;
+@head-panel-hgroup-padding-top-xs       : @wp-head-panel-hgroup-padding-top-xs; 
+@head-panel-hgroup-padding-bottom-xs    : @wp-head-panel-hgroup-padding-bottom-xs;
+@head-panel-title-font-size             : @wp-head-panel-title-font-size;
+@head-panel-title-font-size-sm          : @wp-head-panel-title-font-size-sm;
+@head-panel-title-font-size-xs          : @wp-head-panel-title-font-size-xs;
+@full-width-photo-min-panel-height 	  	: @wp-full-width-photo-min-panel-height;
+@full-width-photo-min-panel-height-sm 	: @wp-full-width-photo-min-panel-height-sm;
+@full-width-photo-min-panel-height-xs 	: @wp-full-width-photo-min-panel-height-xs;
+@map-panel-height 						: @wp-map-panel-height;
+@map-panel-height-sm 					: @wp-map-panel-height-sm;
+@map-panel-height-xs 					: @wp-map-panel-height-xs;
+
+
+//== THEME OPTIONS > FOOTER > MAIN SECTION
+
+@footer-bgcolor         				: @wp-footer-bgcolor;
+@footer-txtcolor        				: @wp-footer-txtcolor;
+@footer-linkcolor       				: @wp-footer-linkcolor;
+@footer-linkcolor-hover 				: @wp-footer-linkcolor-hover;
+
+//== THEME OPTIONS <<<<
+
+
+//== ΝΟΝ WP CONTROLLED VARIABLES >>>>>>>>>>>>
+
+	@primary-section-bgcolor	: @brand-primary;
+	@secondary-section-bgcolor	: @brand-secondary;
+	//@background-color-3 		: #d30202;
+	//@background-color-4 		: #2658fd;
+
+//== Typography
+
+	@font-size-h1:            floor((@font-size-alternative-base * 2.5));
+	@font-size-h2:            floor((@font-size-alternative-base * 2.1)); 
+	@font-size-h3:            floor((@font-size-alternative-base * 1.9)); 
+	@font-size-h4:            floor((@font-size-alternative-base * 1.3)); 
+	@font-size-h5:            @font-size-alternative-base;
+	@font-size-h6:            ceil((@font-size-alternative-base * 0.9));
+
+	@font-size-large:         ceil((@font-size-alternative-base * 1.1));
+	@font-size-small:         ceil((@font-size-alternative-base * 0.8));
+
+	@line-height-base:        1.5; 
+	@line-height-computed:    floor((@font-size-base * @line-height-base)); 
+
+	@headings-line-height:    1.1;
+	@headings-color:          inherit;
+
+	// Added after Hotel Xenia
+	@line-height-large:       1.33;
+	@line-height-small:       1.6;
+
+
+//== Layout
+
+	@section-vertical-padding: 96px;
+	@vertical-margin: 24px;
+
+	@header-height: (2 * @logo-vertical-margin) + @logo-img-max-height;
+	@header-height-sm: (2 * @logo-vertical-margin-sm) + @logo-img-max-height-sm;
+	@header-height-xs: (2 * @logo-vertical-margin-xs) + @logo-img-max-height-xs;
+
+	@submenu-item-vertical-padding: 10px;
+
+	// Added after Hotel Xenia
+	@header-font-family: @font-family-sans-serif;
+	//@section-spacing-value: 48px;
+
+	@screen-xxs: 480px;
+	@screen-xxxs: 320px;
+
+//== Buttons Colors
+
+	@btn-default-bg: @text-color;
+	@btn-default-txt: @text-color;
+	@btn-default-txt-hover: @body-bg;
+
+	@btn-primary-bg: @brand-primary;
+	@btn-primary-txt: @brand-primary;
+	@btn-primary-txt-hover: @primary-section-txtcolor;
+
+	@btn-secondary-bg: @brand-secondary;
+	@btn-secondary-txt: @brand-secondary;
+	@btn-secondary-txt-hover: @secondary-section-txtcolor;	
+
+	@btn-white-bg: #fdfdfd;
+	@btn-white-txt: #fdfdfd;
+	@btn-white-txt-hover: #111118;
+
+	@btn-black-bg: #000;
+	@btn-black-txt: #000;
+	@btn-black-txt-hover: #fdfdfd;
+
+	@btn-warning-bg: @brand-warning;
+	@btn-warning-txt: @brand-warning;
+	@btn-warning-txt-hover: #fdfdfd;
+
+	@btn-success-bg: @brand-success;
+	@btn-success-txt: @brand-success;
+	@btn-success-txt-hover: #fdfdfd;
+
+	@btn-info-bg: @brand-info;
+	@btn-info-txt: @brand-info;
+	@btn-info-txt-hover: #fdfdfd;
+
+	@btn-danger-bg: @brand-danger;
+	@btn-danger-txt: @brand-danger;
+	@btn-danger-txt-hover: #fdfdfd;
+
+
+//== Other ( activated as in HTML )
+	
+	// Added after Avoir
+	@brand-success: #2ecc71;
+	@brand-info: #5bc0de;
+	@brand-warning: #f0ad4e;
+	@brand-danger: #d9534f;
+
+	// Added after Hotel Xenia
+	//@link-hover-decoration: none;
+	//@logo-txtcolor: #fdfdfd;
+	
+	@secondary-nav-widgetized-area-bgcolor: @header-bgcolor;
+	@secondary-widgetized-area-width: 320px;
+	
+
+//== Core variables overrides ( enabled for Hotel Xenia )
+	@border-radius-base: 0;
+	@border-radius-small: 0;
+	@border-radius-large: 0;
+	@padding-base-horizontal: 24px;
+	@padding-base-vertical: 8px; 

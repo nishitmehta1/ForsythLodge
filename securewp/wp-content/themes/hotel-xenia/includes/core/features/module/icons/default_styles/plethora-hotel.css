@@ -1,0 +1,126 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 24/10/2016 11:50
+  	*/
+
+@font-face {
+  font-family: "plethora-hotel";
+  src: url("./plethora-hotel.eot");
+  src: url("./plethora-hotel.eot?#iefix") format("embedded-opentype"),
+       url("./plethora-hotel.woff") format("woff"),
+       url("./plethora-hotel.ttf") format("truetype"),
+       url("./plethora-hotel.svg#plethora-hotel") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "plethora-hotel";
+    src: url("./plethora-hotel.svg#plethora-hotel") format("svg");
+  }
+}
+
+[class^="hi-"]:before, [class*=" hi-"]:before,
+[class^="hi-"]:after, [class*=" hi-"]:after {   
+  font-family: plethora-hotel;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.hi-air-conditioner:before { content: "\f100"; }
+.hi-alarm-clock:before { content: "\f101"; }
+.hi-alarm-clock-1:before { content: "\f102"; }
+.hi-armchair:before { content: "\f103"; }
+.hi-bar:before { content: "\f104"; }
+.hi-basic-restaurant-sign:before { content: "\f105"; }
+.hi-bathtub:before { content: "\f106"; }
+.hi-bathtub-1:before { content: "\f107"; }
+.hi-bathtub-2:before { content: "\f108"; }
+.hi-bed:before { content: "\f109"; }
+.hi-bellboy:before { content: "\f10a"; }
+.hi-bellboy-1:before { content: "\f10b"; }
+.hi-chair:before { content: "\f10c"; }
+.hi-chandelier:before { content: "\f10d"; }
+.hi-chimney:before { content: "\f10e"; }
+.hi-closet:before { content: "\f10f"; }
+.hi-clothes:before { content: "\f110"; }
+.hi-cocktail:before { content: "\f111"; }
+.hi-cocktail-glass:before { content: "\f112"; }
+.hi-coffee:before { content: "\f113"; }
+.hi-coffee-cup:before { content: "\f114"; }
+.hi-coffee-maker:before { content: "\f115"; }
+.hi-credit-card:before { content: "\f116"; }
+.hi-credit-card-1:before { content: "\f117"; }
+.hi-cup:before { content: "\f118"; }
+.hi-cushion:before { content: "\f119"; }
+.hi-cutlery:before { content: "\f11a"; }
+.hi-do-not-disturb-door-hanger:before { content: "\f11b"; }
+.hi-door:before { content: "\f11c"; }
+.hi-drawers:before { content: "\f11d"; }
+.hi-dumbbell:before { content: "\f11e"; }
+.hi-elevator:before { content: "\f11f"; }
+.hi-golf:before { content: "\f120"; }
+.hi-hair-dryer:before { content: "\f121"; }
+.hi-hotel-elevator-sign:before { content: "\f122"; }
+.hi-hotel-luggage-room-sign:before { content: "\f123"; }
+.hi-hotel-reception-bell:before { content: "\f124"; }
+.hi-house:before { content: "\f125"; }
+.hi-iron:before { content: "\f126"; }
+.hi-iron-1:before { content: "\f127"; }
+.hi-key:before { content: "\f128"; }
+.hi-knob:before { content: "\f129"; }
+.hi-lamp:before { content: "\f12a"; }
+.hi-laundry-sign:before { content: "\f12b"; }
+.hi-luggage:before { content: "\f12c"; }
+.hi-luggage-trolley:before { content: "\f12d"; }
+.hi-microwave:before { content: "\f12e"; }
+.hi-mirror:before { content: "\f12f"; }
+.hi-mobile-phone:before { content: "\f130"; }
+.hi-modem:before { content: "\f131"; }
+.hi-newspaper:before { content: "\f132"; }
+.hi-nightstand:before { content: "\f133"; }
+.hi-nightstand-1:before { content: "\f134"; }
+.hi-no-smoking:before { content: "\f135"; }
+.hi-palm-tree:before { content: "\f136"; }
+.hi-perfume:before { content: "\f137"; }
+.hi-phone-outline:before { content: "\f138"; }
+.hi-plant:before { content: "\f139"; }
+.hi-razor:before { content: "\f13a"; }
+.hi-reception:before { content: "\f13b"; }
+.hi-relax:before { content: "\f13c"; }
+.hi-remote-control:before { content: "\f13d"; }
+.hi-restaurant:before { content: "\f13e"; }
+.hi-room-key:before { content: "\f13f"; }
+.hi-room-service:before { content: "\f140"; }
+.hi-room-service-1:before { content: "\f141"; }
+.hi-room-service-2:before { content: "\f142"; }
+.hi-room-service-3:before { content: "\f143"; }
+.hi-room-service-4:before { content: "\f144"; }
+.hi-safebox:before { content: "\f145"; }
+.hi-safebox-1:before { content: "\f146"; }
+.hi-shampoo:before { content: "\f147"; }
+.hi-shower:before { content: "\f148"; }
+.hi-sink:before { content: "\f149"; }
+.hi-soap:before { content: "\f14a"; }
+.hi-suitcase:before { content: "\f14b"; }
+.hi-swimming-pool:before { content: "\f14c"; }
+.hi-swimming-pool-1:before { content: "\f14d"; }
+.hi-swimming-pool-sign:before { content: "\f14e"; }
+.hi-taxi:before { content: "\f14f"; }
+.hi-television:before { content: "\f150"; }
+.hi-television-1:before { content: "\f151"; }
+.hi-tennis:before { content: "\f152"; }
+.hi-toilet:before { content: "\f153"; }
+.hi-toilets-sign:before { content: "\f154"; }
+.hi-toothbrush:before { content: "\f155"; }
+.hi-toothpaste:before { content: "\f156"; }
+.hi-towel:before { content: "\f157"; }
+.hi-towel-1:before { content: "\f158"; }
+.hi-towel-on-hanger:before { content: "\f159"; }
+.hi-two-wine-cups:before { content: "\f15a"; }
+.hi-vacuum-cleaner:before { content: "\f15b"; }
+.hi-washing-machine:before { content: "\f15c"; }
+.hi-widescreen:before { content: "\f15d"; }
+.hi-window:before { content: "\f15e"; }

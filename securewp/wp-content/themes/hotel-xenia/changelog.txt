@@ -1,0 +1,29 @@
+Changelog
+---------
+Version 1.2  [02/02/2017]
+
+ - NEW: WooCommerce Demo added
+ - NEW: Woo Products Grid and Slider shortcodes added
+ - UPDATE: Added form method, date format and another two hidden fields on Call To Booking shortcode, for easier info forwarding to external booking systems.
+ - UPDATE: Added form method, date format and another two hidden fields on Call To Booking widget for easier info forwarding to external booking systems.
+ - UPDATE: Added Read More button text edit field for all post type Grid/Slider shortocdes
+ - FIX: Adults/Children fields for Call To Booking shortcode work as expected
+ - FIX: Visual Composer issue on some non latin language versions
+ - FIX: Several minor fixes and styling enhancements
+
+Version 1.1  [28/01/2017]
+
+ - UPDATE: Added two new templates for the Posts Grid shortcode
+ - UPDATE: Added extra classes for footer bar columns
+ - UPDATE: Added automatic room selection functionality for the Room Booking Request widget
+ - UPDATE: Added amenities icons for Room Posts Loop / Slider shortcodes
+ - FIX: Menu display issues for some mobile devices
+ - FIX: Proper viewport meta configuration, fix display issues on some Android devices
+ - FIX: Slider buttons work normally now
+ - FIX: Room full price contents displayed normally
+ - FIX: Slider post fix for the issue occured when changing slides order
+ - FIX: Several styling enhancements
+
+Version 1.0  [15/01/2017]
+
+ - Initial launch

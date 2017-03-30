@@ -1,0 +1,173 @@
+/* THEME OPTIONS PANEL SETTINGS  */
+
+  .redux-container #redux-header { background: #53bdbd !important;}
+
+  .redux-container #redux-header .display_header { background-image:url(images/plethora/plethora_shortcodes.png) !important;  }
+
+  .redux-container #redux-header .display_header h2 { font-family: 'Open Sans', sans-serif; font-weight: 900; }
+
+  .admin-color-fresh #redux-header .display_header span { color: #FFF; margin-left: 5px; }
+
+  /* Info field fix */
+  .redux-info-field.redux-normal { background-color: #0074A2; color:#ffffff; padding: 5px; }
+/*  .redux-info-desc { display:none; visibility: hidden;} */
+  .redux-info-field.redux-normal p { margin:0; display:none; visibility: hidden; }
+  .redux-info-field.redux-normal br { display:none; visibility: hidden; }
+  .redux-info-field.redux-normal b { font-size: 14px !important; text-transform: uppercase;}
+  .redux-info-field.redux-normal small { font-size: 11px !important;  text-transform: none; display:block;}
+
+
+  a.redux-info-link { color:#fff !important; }
+
+  /* Image Select title fix */
+ .redux-image-select label span { display: block; width: 100%; text-align: center; font-size: 10px; font-weight: 700;}
+
+
+/* METABOXES SETTINGS  */
+
+  .redux-metabox h3.redux-hndle {background:none !important; background-color: #0074A2 !important; }  /* Redux Metaboxes header  */
+  .postbox h3.hndle {background:none !important; background-color: #0074A2 !important; color:#fff !important; } /* WP Metaboxes header */
+  .postbox .postbox-title-action a { color:#fff !important; text-decoration: none !important; } /* WP Metaboxes links ( for dashboard use ) */
+  #poststuff .redux-main .form-table tr { border:none !important;}
+  .profile_icons_option input { width:70%;}
+  .ple_metabox_special_tab i { color:  #007BB6 !important; }
+  .ple_metabox_special_tab .group_title { color: #007BB6 !important; font-style: italic;  }
+/* PLETHORA SHORTCODES FOR TINYMCE BUTTON PANEL  */
+
+  /* Plethora Logo Button */
+  i.plethora-icon { background-image: url(images/plethora/plethora_shortcodes.png); }
+
+/* OPTION FIELDS HACKS */
+/*#ple-portfolio-slides-ul textarea { display: none !important; visibility: hidden !important;}
+#ple-portfolio-slides-ul .full-text { display: none !important; visibility: hidden !important;}
+*/
+
+.redux-main .field-desc {
+  color: #999;
+  font-weight: 300;
+}
+
+.redux_field_th span:first-child {
+  color: #999;
+}
+
+#setting-error-tgmpa {
+  border-left: 4px solid #F00;
+}
+/* THEME SETTINGS LOGO */
+
+.redux-container #redux-header .display_header {
+  background-image: url(./images/plethora/plethora_logo.png) !important;
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  background-size: 80px;
+  margin: 0;
+  padding: 20px;
+}
+.redux-container #redux-header .display_header h2 {
+  margin-left: 80px;
+}
+
+/* VISUAL COMPOSER STYLING */
+#wpb_visual_composer,
+#wpb_visual_composer > .inside,
+#visual_composer_content {
+  background: #82CFCF;
+}
+
+.vc_welcome.vc_not-empty .vc_buttons {
+    border: 1px dashed #666;
+}
+
+.vc_welcome .vc_add-element-not-empty-button {
+  background-image: url(./images/visualcomposer/empty_row_sprite.png);
+}
+
+.wpb_row_container > .wpb_vc_column:first-child > .wpb_element_wrapper,
+.wpb_row_container > .wpb_vc_column > .vc_controls {
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.17);
+}
+
+/* Update for: Visual Composer 5.0 */
+.vc_add-element-not-empty-button i.vc-composer-icon.vc-c-icon-add { color: #82cfcf; }
+.vc_add-element-not-empty-button:hover { opacity: 0.6; }
+
+div[data-param_name='exclude_categories'] .vc_checkbox-label {
+    width: 100%;
+    float: right;
+}
+
+/* REDUX OPTIONS STYLING */
+
+/*.redux-main{
+  padding-right:0 !important;
+  padding-left:0 !important;
+}
+.redux_field_th{
+ padding-left: 20px
+}
+.redux-main .form-table tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.redux-main .redux-section-desc,
+.redux-main .redux-section-title,
+.redux-main .form-table th {
+  padding-left: 20px !important;
+}
+
+.redux-main .redux-field-container {
+  padding: 15px 0;
+}*/
+
+/* REDUX / THEME DOCUMENTATION STYLING STARTED  */
+.themedoc p { font-size: 14px; line-height: 24px; }
+.themedoc a { text-decoration: none; }
+.themedoc ul { font-size: 14px; line-height: 24px; list-style-type: disc ; list-style-position: inside; margin-left:15px; }
+.themedoc li { margin-bottom:15px !important ; }
+.themedoc ul ul { list-style-type: square; }
+.themedoc h3 { color: #23282D; font-size: 1.5em; margin: 1em 0px; }
+.themedoc h3 a { padding-right:10px; text-decoration: none; color: #23282D; }
+.themedoc h3 a.right { float: right; }
+.themedoc .content_video { width:48%; padding:1%; float: left; }
+/*.themedoc iframe { width: 640px !important; height: 360px !important; }*/
+.themedoc .doc_menu a { background-color: #00A0D2; color: #fff; line-height: 32px; padding: 5px; padding-left: 10px; padding-right: 10px; border-radius: 3px; }
+.themedoc .alert { padding: 15px; margin-bottom: 23px; border: 1px solid transparent; border-radius: 4px; } 
+.themedoc .alert h4 {margin-top: 0; color: inherit; } 
+.themedoc .alert .alert-link { font-weight: bold; }
+.themedoc .alert > p,
+.themedoc .alert > ul { margin-bottom: 0; }
+.themedoc .alert > p + p { margin-top: 5px; }
+.themedoc .alert-dismissable,
+.themedoc .alert-dismissible { padding-right: 35px; }
+.themedoc .alert-dismissable .close,
+.themedoc .alert-dismissible .close { position: relative; top: -2px; right: -21px; color: inherit; }
+.themedoc .alert-success { background-color: #dff0d8; border-color: #d6e9c6; color: #3c763d; }
+.themedoc .alert-success hr { border-top-color: #c9e2b3; }
+.themedoc .alert-success .alert-link { color: #2b542c; }
+.themedoc .alert-info { background-color: #d9edf7; border-color: #bce8f1; color: #31708f; }
+.themedoc .alert-info hr { border-top-color: #a6e1ec; }
+.themedoc .alert-info .alert-link { color: #245269; }
+.themedoc .alert-warning { background-color: #fcf8e3; border-color: #faebcc; color: #8a6d3b; }
+.themedoc .alert-warning hr { border-top-color: #f7e1b5; }
+.themedoc .alert-warning .alert-link { color: #66512c; }
+.themedoc .alert-danger { background-color: #f2dede; border-color: #ebccd1; color: #a94442; }
+.themedoc .alert-danger hr { border-top-color: #e4b9c0; }
+.themedoc .alert-danger .alert-link { color: #843534; }
+/* REDUX / THEME DOCUMENTATION STYLING FINISHED  */
+
+/* CF7 STYLING for FORM TAG GENERATOR STARTS */
+.toplevel_page_wpcf7 .tag-generator-panel table.form-table th { width: 30%; } /* Option headings column */
+.toplevel_page_wpcf7 .plethora_cf7_label_for_radio { display: block !important; }
+.toplevel_page_wpcf7 #TB_ajaxWindowTitle { background-color: #5DB4D9; color: #ffffff; } /* window title */
+.toplevel_page_wpcf7 #TB_closeWindowButton .tb-close-icon { color: #ffffff !important;  }  /* window close icon */
+.toplevel_page_wpcf7 #TB_ajaxContent { overflow-x: hidden; }  /* window vertical scroll bar */
+.toplevel_page_wpcf7 .tag-generator-panel .insert-box { background-color: #5DB4D9 !important; }  /* tag field area */
+.toplevel_page_wpcf7 .tag-generator-panel .insert-box p { color: #ffffff !important; }  /* tag field area */
+.toplevel_page_wpcf7 .tag-generator-panel .insert-box input.tag { background-color: #ffffff; font-size: 10px; }  /* tag field area */
+/* CF7 STYLING for FORM TAG GENERATOR FINISHED */
+
+/* STYLING FOR TRIANGLE SECTIONS STARTS */
+.tri_ul { margin-top: 15px; }
+.wpb_content_element.wpb_plethora_sectionstyler .wpb_element_wrapper { background-color: #f0f0f0; }
+/* STYLING FOR TRIANGLE SECTIONS FINISHED */

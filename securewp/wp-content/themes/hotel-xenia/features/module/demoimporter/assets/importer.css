@@ -1,0 +1,48 @@
+
+
+/* Wrapper Style */
+
+.plethora_importer_wrapper{
+	margin:0 auto;	
+	padding-left:4%;
+	padding-right:4%;
+}
+
+/* MAINN COMPONENT */
+
+.wrap_demos{
+width: 100%;
+height: auto;
+margin: 10px 0px;
+float: left;
+}
+.wrap_demoinfo{
+width: 100%;
+height: auto;
+margin: 10px 0px;
+float: left;
+}
+.btn-big{
+float: left;
+margin: 0 10px 10px 0;
+width: 15%;
+height: 100px;
+position: relative;
+cursor: pointer;
+transition: all .4s ease;
+user-drag: element;
+border: solid 2px transparent;
+text-align:center;
+line-height:100px;
+}
+.btn-big:hover{
+	opacity: 0.9;
+}
+.btn-big:active{
+	transform: scale(.98,.98);
+}
+.photo{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

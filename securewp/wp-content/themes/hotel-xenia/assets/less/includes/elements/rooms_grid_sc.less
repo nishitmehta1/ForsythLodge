@@ -1,0 +1,113 @@
+/*
+--------------------------------------------------------------  
+ 
+Rooms Grid Shortcode
+
+-------------------------------------------------------------- 
+*/
+
+/* Rooms List Classic Horizontal */
+
+.rooms_list_classic_horizontal_wrapper {
+	.rooms_list_item {
+		margin-bottom: 48px;
+		.flex {
+			@media only screen and (min-width: 768px) { 
+			display:flex;
+			}
+		}
+		.rooms_list_item_content {
+			padding: 48px 8px 28px 8px;
+			h3 {
+				margin-top: 0;
+				margin-bottom: 4px;
+			}
+			h3 + p:not(.subtitle) {margin-top: 20px;}
+			p {font-size: 16px;}
+			p.subtitle {font-size: 13px; text-transform:uppercase;}
+			a.btn {
+				margin-top: 14px;
+			}
+		}
+		.rooms_list_item_photo {min-height: 300px;}
+	}
+}
+
+/* Rooms Grid Classic Vertical */
+
+.rooms_grid_classic_vertical_wrapper {
+	.rooms_grid_item {
+		margin-bottom: 48px;
+		.rooms_grid_item_content {
+			padding: 36px 24px 28px 24px;
+			h3 {
+				margin-top: 0;
+				margin-bottom: 4px;
+			}
+			h3 + p:not(.subtitle) {margin-top: 20px;}
+			p {font-size: 16px;}
+			p.subtitle {font-size: 13px; text-transform:uppercase;}
+			a.btn {
+				margin-top: 14px;
+			}
+		}
+	}
+}
+
+/* Rooms Slider Classic Horizontal */
+
+.rooms_slider_classic_wrapper {
+	.rooms_list_item {
+		.flex {
+			@media only screen and (min-width: 768px) { 
+			display:flex;
+			}
+		}
+		.rooms_list_item_content {
+			padding: 48px 8px 28px 8px;
+			h3 {
+				margin-top: 0;
+				margin-bottom: 4px;
+			}
+			h3 + p:not(.subtitle) {margin-top: 20px;}
+			p {font-size: 16px;}
+			p.subtitle {font-size: 13px; text-transform:uppercase;}
+			a.btn {
+				margin-top: 14px;
+			}
+		}
+		.rooms_list_item_photo {min-height: 300px;}
+	}
+}
+
+.room_listed_amenities {
+	padding: 10px 0 20px 0;
+	i {
+		font-size: 16px;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin-bottom: 10px;
+		border: 1px solid fade(@text-color, 10%);
+		@media (max-width: 991px) {	
+		}
+	}
+	// span {
+	// 	display: block;
+	// 	font-size: 16px;
+	// 	font-weight: 200;
+	// 	text-transform: uppercase;
+	// 	@media (max-width: 991px) {
+	// 		display: none;				
+	// 	}
+	// }
+}
+
+.primary_section .room_listed_amenities i { border: 1px solid fade(@primary-section-txtcolor, 10%); }
+.secondary_section .room_listed_amenities i { border: 1px solid fade(@secondary-section-txtcolor, 10%); }
+.black_section .room_listed_amenities i { border: 1px solid fade(@black-section-txtcolor, 10%); }
+.white_section .room_listed_amenities i { border: 1px solid fade(@white-section-txtcolor, 10%); }
+.dark_section .room_listed_amenities i { border: 1px solid fade(@dark-section-txtcolor, 10%); }
+.light_section .room_listed_amenities i { border: 1px solid fade(@light-section-txtcolor, 10%); }

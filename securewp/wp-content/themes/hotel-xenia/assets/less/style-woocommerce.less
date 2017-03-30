@@ -1,0 +1,190 @@
+/*!
+Theme Name: HOTEL-XENIA
+Theme URI: http://plethorathemes.com/hotel-xenia/
+Description: HOTEL XENIA - Hotel & Resort WordPress Theme 
+Version: 1.0.0
+Author: Plethora Themes
+Author URI: http://www.plethorathemes.com
+Note: Special style.less version for WooCommerce
+*/
+/* 
+    TABLE OF CONTENTS
+=================================================================
+
+    0. =BOOTSTRAP FRAMEWORK REFERENCE IMPORTS
+
+    1. =THEME MIXINS GENERAL HELPER STYLES & CLASSES 
+
+    2. =BODY & TYPOGRAPHY
+
+    3. =THE HEADER, LOGO & PRIMARY MENU
+
+    4. =THE HEAD PANEL AREA
+
+    5. =THE MAIN AREA
+
+    6. =BUTTONS
+
+    7. =FORMS
+
+    8. =DESIGN ELEMENTS
+
+    9. =POST TYPES
+
+    10. =SIDEBAR & WIDGETS
+
+    11. =FOOTER WIDGETIZED AREA
+
+    12. =MISC STYLES
+
+    13. =RESPONSIVE STATES
+
+    14. =VISUAL COMPOSER ADJUSTMENTS
+
+    15. =WORDPRESS ADJUSTMENTS
+
+=================================================================
+*/
+
+/* 
+================================================================= 
+
+
+0. =BOOTSTRAP FRAMEWORK REFERENCE IMPORTS
+
+In "style.less" we reference some of Bootstrap's .less files in order to take advantage of their classes and mixins.
+We also reference the "theme_variables.less" in order to override the original variables and make our custom theme. 
+A customized "theme_custom_bootstrap.css" is also loaded by the theme in a precompiled minified css version.
+================================================================= 
+*/
+
+// Core variables and mixins
+@import (reference) "../twitter-bootstrap/less/variables.less";
+@import (reference) "../twitter-bootstrap/less/mixins.less";
+@import (reference) "../twitter-bootstrap/less/tables.less";
+@import (reference) "./theme_variables.less";
+
+/*!
+ ______ _____   _______ _______ _______ _______ ______ _______ 
+|   __ \     |_|    ___|_     _|   |   |       |   __ \   _   |
+|    __/       |    ___| |   | |       |   -   |      <       |
+|___|  |_______|_______| |___| |___|___|_______|___|__|___|___|
+
+P L E T H O R A T H E M E S . C O M                    (c) 2016
+                        
+Theme Name: Hotel Xenia
+THEME STYLES v.1.0.0
+=============================================================== 
+*/
+
+/* 
+1. =THEME MIXINS GENERAL HELPER STYLES & CLASSES
+=============================================================== 
+*/ 
+
+@import './includes/helpers.less';
+
+/* 
+2. =BODY & TYPOGRAPHY
+=============================================================== 
+*/ 
+
+@import './includes/body_and_typography.less';
+
+/* 
+3. =THE HEADER, LOGO & PRIMARY MENU
+=============================================================== 
+*/ 
+
+@import './includes/header.less';
+
+/* 
+4. =THE HEAD PANEL AREA
+=============================================================== 
+*/ 
+
+@import './includes/head_panel.less';
+
+/* 
+5. =THE MAIN AREA
+=============================================================== 
+*/ 
+
+@import './includes/main_sections.less';
+
+/* 
+6. =BUTTONS
+=============================================================== 
+*/ 
+
+@import './includes/buttons.less';
+
+/* 
+7. =FORMS
+=============================================================== 
+*/ 
+
+@import './includes/forms.less';
+
+/*
+8. =DESIGN ELEMENTS
+=============================================================== 
+*/ 
+
+@import './includes/design_elements.less';
+
+/* 
+9. =POST TYPES
+=============================================================== 
+*/ 
+ 
+@import './includes/post_types.less';
+
+/*
+10. =SIDEBAR AND WIDGETS
+=============================================================== 
+*/ 
+
+@import './includes/sidebar_and_widgets.less';
+
+/* 
+11. =FOOTER WIDGETIZED AREA
+=============================================================== 
+*/ 
+
+@import './includes/footer.less';
+
+/* 
+12. =MISC STYLES
+=============================================================== 
+*/ 
+
+@import './includes/misc.less';
+
+/* 
+13. =RESPONSIVE STATES
+=============================================================== 
+*/ 
+
+@import  "./includes/responsive.less";
+
+/* 
+14. =VISUAL COMPOSER ADJUSTMENTS
+=============================================================== 
+*/ 
+
+@import  "./includes/visual_composer_adjustments.less";
+
+/* 
+15. =WORDPRESS ADJUSTMENTS
+=============================================================== 
+*/ 
+
+@import  "./includes/wordpress.less";
+
+/* 
+16. =WOOCOMMERCE COLOR-RELATED STYLES
+=============================================================== 
+*/ 
+
+@import  "./includes/woocommerce.less";

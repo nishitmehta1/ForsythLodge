@@ -1,0 +1,50 @@
+<?php
+/*
+ ______ _____   _______ _______ _______ _______ ______ _______ 
+|   __ \     |_|    ___|_     _|   |   |       |   __ \   _   |
+|    __/       |    ___| |   | |       |   -   |      <       |
+|___|  |_______|_______| |___| |___|___|_______|___|__|___|___|
+
+P L E T H O R A T H E M E S . C O M             (c) 2015 - 2016
+
+Testimonial Post Type Config Class
+
+*/
+
+if ( ! defined( 'ABSPATH' )) exit; // NO DIRECT ACCESS
+
+if ( class_exists('Plethora_Posttype_Testimonial') && !class_exists('Plethora_Posttype_Testimonial_Ext') ) {
+
+  /**
+   * Extend base class
+   * Base class file: /plugins/plethora-framework/features/posttype/testimonial/posttype-testimonial.php
+   */
+  class Plethora_Posttype_Testimonial_Ext extends Plethora_Posttype_Testimonial { 
+
+    public $post_type_supports = array( 'title', 'editor', 'thumbnail' );
+
+	/** 
+	* Single view options_config for theme options and metabox panels
+	*/
+	public function single_options_config() {
+
+		$config = array(
+			array( 
+				'id'                    => 'person-name', 
+				'theme_options'         => false, 
+				'theme_options_default' => NULL,
+				'metabox'               => true,
+				'metabox_default'       => ''
+				),
+			array( 
+				'id'                    => 'person-role', 
+				'theme_options'         => false, 
+				'theme_options_default' => NULL,
+				'metabox'               => true,
+				'metabox_default'       => ''
+				),
+		);
+		return $config;
+	}
+  }
+}

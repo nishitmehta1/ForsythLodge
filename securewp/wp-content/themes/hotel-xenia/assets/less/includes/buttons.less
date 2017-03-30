@@ -1,0 +1,775 @@
+.button-variant(@color; @background; @border) {
+	color: @color !important;
+	background-color: @background !important;
+	border-color: @border !important;
+	&:hover,
+	&:focus,
+	&.focus,
+	&:active,
+	&.active,
+	.open > .dropdown-toggle& {
+		color: @color !important;
+		background-color: darken(@background, 10%) !important;;
+		border-color: darken(@border, 10%) !important;;
+	}
+	&:active,
+	&.active,
+	.open > .dropdown-toggle& {
+		background-image: none;
+	}
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		&,
+		&:hover,
+		&:focus,
+		&.focus,
+		&:active,
+		&.active {
+			background-color: @background;
+					border-color: @border;
+		}
+	}
+	.badge {
+		color: @background;
+		background-color: @color;
+	}
+}
+
+// Button sizes
+.button-size(@padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius) {
+	padding: @padding-vertical @padding-horizontal;
+	font-size: @font-size;
+	line-height: @line-height;
+	border-radius: @border-radius;
+}
+
+.btn {
+	display: inline-block;
+	background-image : none;
+	background-color: transparent;
+	font-weight      : @btn-font-weight;
+	text-align       : center;
+	text-transform   : @btn-text-transform;
+	.button-size(@btn-padding-v; @btn-padding-h; @btn-font-size; @line-height-base; @border-radius-base);  
+	&,
+	&:active,
+	&.active {
+		&:focus {  .tab-focus();  }
+	}
+	&:hover,
+	&:focus {
+		color: @btn-default-color;
+		text-decoration : none;
+	}
+	&:active,
+	&.active {
+		outline: 0;
+		background-image: none;
+	}
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] & {
+		cursor: not-allowed;
+		pointer-events: none; // Future-proof disabling of clicks
+		.opacity(.65);
+	}
+}
+
+// Buttons
+
+.btn-default:not(.btn-link) {
+	.btn;
+	border: 1px @btn-default-bg solid;
+	color: @btn-default-txt !important;
+	.sweep-to-top-btn-default();
+	&.btn-inv {
+		background-color: @btn-default-bg;
+		color: @btn-default-txt-hover !important;
+		&:before {background: @btn-default-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-default-txt !important;
+		}
+	}
+}
+
+.btn-primary  {
+	.btn;
+	border: 1px @btn-primary-bg solid;
+	color: @btn-primary-txt !important;
+	.sweep-to-top-btn-primary();
+	&.btn-inv {
+		background-color: @btn-primary-bg;
+		color: @btn-primary-txt-hover !important;
+		&:before {background: @btn-primary-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-primary-txt !important;
+		}
+	}
+}
+
+.btn-secondary {
+	.btn;
+	border: 1px @btn-secondary-bg solid;
+	color: @btn-secondary-txt !important;
+	.sweep-to-top-btn-secondary();
+	&.btn-inv {
+		background-color: @btn-secondary-bg;
+		color: @btn-secondary-txt-hover !important;
+		&:before {background: @btn-secondary-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-secondary-txt !important;
+		}
+	}
+}
+
+.btn-white {
+	.btn;
+	border: 1px @btn-white-bg solid;
+	color: @btn-white-txt !important;
+	.sweep-to-top-btn-white();
+	&.btn-inv {
+		background-color: @btn-white-bg;
+		color: @btn-white-txt-hover !important;
+		&:before {background: @btn-white-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-white-txt !important;
+		}
+	}
+}
+
+.btn-success {
+	.btn;
+	border: 1px @btn-success-bg solid;
+	color: @btn-success-txt !important;
+	.sweep-to-top-btn-success();
+	&.btn-inv {
+		background-color: @btn-success-bg;
+		color: @btn-success-txt-hover !important;
+		&:before {background: @btn-success-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-success-txt !important;
+		}
+	}
+} 
+
+.btn-info {
+	.btn;
+	border: 1px @btn-info-bg solid;
+	color: @btn-info-txt !important;
+	.sweep-to-top-btn-info();
+	&.btn-inv {
+		background-color: @btn-info-bg;
+		color: @btn-info-txt-hover !important;
+		&:before {background: @btn-info-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-info-txt !important;
+		}
+	}
+}   
+
+.btn-warning {
+	.btn;
+	border: 1px @btn-warning-bg solid;
+	color: @btn-warning-txt !important;
+	.sweep-to-top-btn-warning();
+	&.btn-inv {
+		background-color: @btn-warning-bg;
+		color: @btn-warning-txt-hover !important;
+		&:before {background: @btn-warning-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-warning-txt !important;
+		}
+	}
+} 
+
+.btn-danger {
+	.btn;
+	border: 1px @btn-danger-bg solid;
+	color: @btn-danger-txt !important;
+	.sweep-to-top-btn-danger();
+	&.btn-inv {
+		background-color: @btn-danger-bg;
+		color: @btn-danger-txt-hover !important;
+		&:before {background: @btn-danger-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-danger-txt !important;
+		}
+	}
+}
+
+.btn-black {
+	.btn;
+	border: 1px @btn-black-bg solid;
+	color: @btn-black-txt !important;
+	.sweep-to-top-btn-black();
+	&.btn-inv {
+		background-color: @btn-black-bg;
+		color: @btn-black-txt-hover !important;
+		&:before {background: @btn-black-txt-hover;}
+		&:hover, &:focus, &:active {
+			color: @btn-black-txt !important;
+		}
+	}
+}
+
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.btn-link {
+	color: @link-color;
+	font-weight: normal;
+	border-radius: 0;
+	.underline-from-left();
+	.button-size(@btn-padding-v; 0; @font-size-small; @line-height-base; @border-radius-base) !important; 
+	&,
+	&:active,
+	&.active,
+	&[disabled],
+	fieldset[disabled] & {
+		background-color: transparent;
+		.box-shadow(none);
+	}
+	&,
+	&:hover,
+	&:focus,
+	&:active {
+		border-color: transparent;
+	}
+	&:hover,
+	&:focus {
+		color: @link-hover-color;
+		//text-decoration: @link-hover-decoration;
+		background-color: transparent;
+	}
+	&[disabled],
+	fieldset[disabled] & {
+		&:hover,
+		&:focus {
+			color: @btn-link-disabled-color;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn-lg {
+	.button-size(@btn-padding-v-lg; @btn-padding-h-lg; @btn-font-size-large; @line-height-large; @border-radius-large);
+}
+.btn-sm {
+	.button-size(@btn-padding-v-sm; @btn-padding-h-sm; @btn-font-size-small; @line-height-small; @border-radius-small);
+}
+.btn-xs {
+	.button-size(@btn-padding-v-xs; @btn-padding-h-xs; @btn-font-size-extra-small; @line-height-small; @border-radius-small);
+}
+
+
+// Block button
+// --------------------------------------------------
+
+.btn-block {
+	display: block;
+	width: 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block {
+	margin-top: 5px;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	&.btn-block {
+		width: 100%;
+	}
+}
+
+// Button with icon
+// --------------------------------------------------
+
+.btn.with-icon {
+	i {
+		padding-left: 8px;
+	}
+	&.btn-sm i {
+		line-height: 29px;
+	}
+	&.icon-left {
+		i {
+			padding-left: 0;
+			padding-right: 8px;
+		}
+	}
+}
+
+/*
+--------------------------------------------------------------  
+ 
+ELEMENTS HOVER
+
+-------------------------------------------------------------- 
+*/ 
+
+/* Custom Buttons */
+
+// Custom button 1
+
+.sweep-to-top-btn-white() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-white-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-white-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-black() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-black-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-black-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-success() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-success-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-success-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-warning() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-warning-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-warning-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-primary() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-primary-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-primary-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-secondary() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-secondary-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-secondary-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-default() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-default-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-default-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-info() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-info-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-info-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+.sweep-to-top-btn-danger() {
+	.hacks();
+	position: relative;
+	.prefixed(transition-property, color);
+	.prefixed(transition-duration, @mediumDuration);
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: @btn-danger-bg;
+		.prefixed(transform, scaleY(0));
+		.prefixed(transform-origin, 50% 100%);
+		.prefixed(transition-property, transform);
+		.prefixed(transition-duration, @mediumDuration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: @btn-danger-txt-hover !important;
+		&:before {
+			.prefixed(transform, scaleY(1));
+		}
+	}
+}
+
+// --------------
+
+/* Navigation Button */
+
+.underline-from-left() {
+	@duration: @mediumDuration;
+
+	.hacks();
+	position: relative;
+	overflow: hidden;
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		left: 0;
+		right: 100%;
+		bottom: 0;
+		background: @activeColor;
+		height: 1px;
+		.prefixed(transition-property, "right");
+		.prefixed(transition-duration, @duration);
+		.prefixed(transition-timing-function, ease-out);
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+
+		&:before {
+			right: 0;
+		}
+	}
+}
+
+// DEFAULT OPTIONS
+
+// Prefix for Hover class names
+@nameSpace: hvr;
+
+// Durations
+@fastDuration: .1s;
+@mediumDuration: .3s;
+@slowDuration: .5s;
+
+// Colors
+@primaryColor: #e1e1e1;
+@secondaryColor: #666;
+@highlightColor: #ccc;
+@activeColor: @brand-primary;
+@shadowColor: rgba(0, 0, 0, .6);
+
+// Speech bubbles options
+@tipWidth: 10px;  //the width of the speech bubble tip
+@tipHeight: 10px; //the height of the speech bubble tip
+@tipColor: @primaryColor;
+
+// Arrows options
+@spaceBetweenTextAndArrows: 2.2em;
+
+// Curl dimensions
+@curlWidth: 25px;
+@curlHeight: 25px;
+
+// Curl colors
+@revealAreaColor: white;    // reveal area behind the curl
+@curlLineColor: #aaa;       // crease line
+@curlTransitionColor: #ccc; // color transitioning from crease line to final color
+@curlLastColor: white;      // final color of the back of the curl
+
+// Browser Prefixes - Which CSS prefixes should be used?
+@webkit: true;
+@moz: false;
+@ms: false;
+@o: false;
+
+// Compile with or without classes
+@includeClasses: true;
+
+
+// prefix declarations
+.prefixed(@property, @value) {
+  & when (@webkit = true) {
+	-webkit-@{property}: @value;
+  }
+
+  & when (@moz = true) {
+	  -moz-@{property}: @value;
+  }
+
+  & when (@ms = true) {
+	  -ms-@{property}: @value;
+  }
+
+  & when (@o = true) {
+	  -o-@{property}: @value;
+  }
+
+  @{property}: @value;
+}
+
+// prefix keyframes
+.keyframes(@name; @content) {
+  & when (@webkit = true) {
+	@-webkit-keyframes @name {
+	  @content();
+	}
+  }
+
+  & when (@moz = true) {
+	  @-moz-keyframes @name {
+		  @content();
+	  }
+  }
+
+  & when (@ms = true) {
+	  @-ms-keyframes @name {
+		  @content();
+	  }
+  }
+
+  & when (@o = true) {
+	  @-o-keyframes @name {
+		  @content();
+	  }
+  }
+
+  @keyframes @name {
+	@content();
+  }
+}
+
+// As is often the case, some devices/browsers need additional code to get CSS to work
+// in the most desired way. These mixins are used to quickly drop in hacks for each element
+// Find out more here: https://github.com/IanLunn/Hover/wiki/Hacks-Explained
+
+.hardwareAccel() {
+	// Improve performance on mobile/tablet devices
+	.prefixed(transform, translateZ(0));
+}
+
+.improveAntiAlias() {
+	// Improve aliasing on mobile/tablet devices
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.fontSmooth() {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.forceBlockLevel() {
+	// Transforms need to be block-level to work
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hacks() {
+	.forceBlockLevel();
+	.hardwareAccel();
+	.improveAntiAlias();
+	.fontSmooth();
+}

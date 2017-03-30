@@ -1,0 +1,34 @@
+.stretchy_wrapper {
+    width: 100% !important;
+    padding-bottom: 56.25% !important; /* 16:9 */
+    position: relative !important;
+    overflow: hidden !important;
+    height: 0px;
+    .background_cover;
+    display: block;
+}
+.stretchy_wrapper.ratio_16-9 {padding-bottom: 56.25% !important;}
+.stretchy_wrapper.ratio_15-9 {padding-bottom: 62% !important;}
+.stretchy_wrapper.ratio_4-3 {padding-bottom: 75% !important;}
+.stretchy_wrapper.ratio_12-5 {padding-bottom: 41.66% !important;}
+.stretchy_wrapper.ratio_2-1 {padding-bottom: 50% !important;}
+.stretchy_wrapper.ratio_1-1 {padding-bottom: 100% !important;}
+.stretchy_wrapper.ratio_5-1 {padding-bottom: 20% !important;}
+.stretchy_wrapper.ratio_2-3 {padding-bottom: 150% !important;}
+.stretchy_wrapper.ratio_3-4 {padding-bottom: 133.33% !important;}
+ 
+.stretchy_wrapper > * {
+    display: block;
+    position: absolute !important;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* PL Shortcode: Fixed Ratio Media */
+
+.pl_fixed_ratio_media .stretchy_wrapper img {
+  z-index: -1;
+}
+
+.pl_fixed_ratio_media.wpb_content_element { margin-top: 15px; margin-bottom:15px;}

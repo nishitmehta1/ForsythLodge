@@ -1,0 +1,44 @@
+// ------ PRETTY PHOTO LIGHTBOX STYLING --------//
+
+@import (less) './includes/elements/pretty_photo_overrides.css';
+
+// ------ - --------//
+
+.vc_col-has-fill > .vc_column-inner, .vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_row > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_vc_column_inner > .vc_column_container > .vc_column-inner {
+  padding-top: 0px;
+}
+
+.wpb_button, .vc_icon_element, .wpb_content_element, ul.wpb_thumbnails-fluid > li {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+// ------ VC IMAGE GALLERY --------//
+
+.wpb_flexslider.flexslider {
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.theme-default .nivoSlider {
+    box-shadow: none !important;
+}
+
+// ------ - --------//
+
+.vc_message_box-icon > * {
+    transform: translate(-50%, -50%) !important;
+}
+
+// ------ - --------//
+
+.vc_video-bg {position:absolute !important;}
+
+.vc_row.vc_video-bg-container.transparent_film::before { z-index:1; }
+
+.vc_row.vc_video-bg-container .wpb_column { z-index:2; }
+
+.wpb_gmaps_widget .wpb_wrapper { padding: 0px; }
+
+// ------ - --------//

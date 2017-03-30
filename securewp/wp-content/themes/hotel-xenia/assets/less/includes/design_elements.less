@@ -1,0 +1,41 @@
+@import './includes/elements/ple_owl_slider.less';
+@import './includes/elements/heading_group_sc.less';
+@import './includes/elements/teaserbox_sc.less';
+@import './includes/elements/hoverbox_sc.less';
+@import './includes/elements/posts_grid_sc.less';
+@import './includes/elements/rooms_grid_sc.less';
+@import './includes/elements/services_grid_sc.less';
+@import './includes/elements/testimonials_grid_sc.less';
+@import './includes/elements/fixed_ratio_media_sc.less';
+@import './includes/elements/breadcrumb.less';
+
+/* LOOP SHORTCODES */ 
+
+.grid_wrapper {
+  .grid_item {
+    //margin: 15px 0px;
+    .stretchy_wrapper img { position: absolute; z-index: -1; }
+    img { width:100%; }
+  }
+  &.no_gutter .grid_item { padding: 0 !important; margin: 0 !important; }
+}
+
+.filter_button_group {
+  text-align: center;
+  margin-bottom: 48px;
+  a.filter_button {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Call to Booking SC */
+
+// .call_to_booking_sc {
+//     overflow: auto;
+// }

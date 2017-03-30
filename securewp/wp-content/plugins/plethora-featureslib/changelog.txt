@@ -1,0 +1,149 @@
+Changelog
+---------
+ver 1.5.6  [ 23/2/2017 ] - packed for Hotel Xenia 1.2. release
+
+ - NEW: Theme Options module ( beta )
+ - NEW: Sticky Header module ( beta )
+ - NEW: Side Nav module ( beta )
+ - NEW: Logo module ( beta )
+ - NEW: Footer widgets module ( beta )
+ - NEW: Color sets module ( beta )
+ - NEW: Typography module ( beta )
+ - UPDATE: several enhancements for the abstract Plethora class
+
+ - NEW: Nav Mini tools module, handles all header mini tools features
+ - FIX: Minor fix for amenities index
+
+ver 1.5.5  [ 6/2/2017 ] - packed for Avoir 1.2. release
+
+ - NEW: Nav Mini tools module, handles all header mini tools features
+ - FIX: Minor fix for amenities index
+
+ver 1.5.4  [ 27/1/2017 ] - packed for Hotel Xenia 1.1 release
+
+ - WIDGETS: Updated several widgets according to the latest parameters index methodology. These widgets are not included on any theme yet, so it's safe to work
+ - SHORTCODE: PROFILE GRID | BASE: Added order by date selection HEALTHFLEX-81
+ - SHORTCODE: ANY POST LOOP | BASE: Correction for the amenities option dependency configuration...we need this field only on room CPT
+ - SHORTCODE: ANY POST LOOP | BASE:  Fix for the return of get_templates_dependency() method. Apparently VC dependency functionality needs an array with default PHP array keys ( 0 => value1, 1 => value2, etc. )...in example, if an array was starting as 1 => value 1, it would not apply the dependency! . I fixed this using on the return value the array_values() function, which resets the keys properly.
+ - POST TYPE: SLIDER | BASE:  Repeater field fixes XENIAWP-135 #done
+ - MODULE: BOOKING | BASE:  Added template methods for full price list field XENIAWP-129
+ - POST TYPE: SLIDER | BASE: Button classes fix XENIAWP-97
+ - SHORTCODE: ANY POST LOOP | BASE: Added color set and room amenities XENIAWP-132
+ - POST TYPE: ROOM | BASE: Added a helper method that returns amenities configuration ready for template use
+ - CONTROLLER: WIDGET:  Minor fix
+ - WIDGET: CALL TO BOOKING | BASE: XENIAWP-112 Fix for "It does not pass the selected room to the booking form"
+ - CONTROLLER: WIDGET: Fixed field description for chekbox 
+
+ver 1.5.3  [ 13/1/2017 ] - packed for Healthflex 1.4.8 release
+
+ - ( pending )
+
+ver 1.5.2  [ 23/12/2016 ] - packed for Hotel Xenia 1.0 release
+
+ - ( pending )
+
+ver 1.5.1  [ 02/11/2016 ] - packed for Avoir 1.1.1 release
+
+ - NEW: Hover Box shortcode for Xenia
+ - UPDATE: Added checkbox field to Widgets Controller class
+ - UPDATE: Updated About Us base class according to widget options config system
+ - UPDATE: Slider post type titled as OwlSliders. Also added some slider data returning methods, mostly to replace those in media panel class calls
+ - UPDATE: Media Panel class updates and minor fixes
+ - UPDATE: Added First/Last name for Newsletter shortcode
+ - UPDATE: Moved theme options under General Tab for the breadcrumb module
+ - UPDATE: Added wp_kses on term name for Any Post Loop shortcode(s)
+
+ver 1.5  [ 13/10/2016 ] - packed for Healthflex 1.4.7 release
+
+ - NEW: CF7 Module class
+ - NEW: Advanced search module
+ - NEW: Breadcrumb module
+ - NEW: Editor Content Index module
+ - NEW: Editor Content Nav Widget
+ - NEW: Custom Tax List Widget
+ - NEW: Filter By Letter Widget
+ - NEW: Site Updated Widget
+ - UPDATE: VC module handles user defined element removals
+ - UPDATE: Minor improvements for features: Heading group, Instagram Feed, Mailchimp, About Us, Latest News, Google Maps
+ - FIX: Twenty/Twenty premature intialization bug
+ - FIX: Media panel owlslider, lazyload and mouse/touch slide options issue
+ - FIX: Minor fixes
+
+ver 1.4.9  [ 17/09/2016 ]
+
+ - NEW: Events Calendar plugin support module ( first use in Healthflex )
+ - UPDATE: Moved the new Media Panel base module version from  Avoir theme in here...from now and on, this will be the official one
+ - UPDATE: Updated WooCommerce module class to meet latest changes in the abstract Plethora class page_id / post_type returning methods
+
+ver 1.4.8  [06/09/2016]
+
+ - UPDATE: Updated WooCommerce module class to meet latest changes. 
+ - UPDATE: Added some usefull hooks in WPLESS module class
+ - UPDATE: Replaced textarea fields with simple text inside the slide repeater field...it seems that textarea don't play well with Redux repeater.
+
+ver 1.4.7  [2/08/2016]
+
+ - UPDATE: just minor fixes, mostly for Avoir Review
+
+ver 1.4.6  [12/07/2016]
+
+ - NEW: Google Maps API module
+ - NEW: VC Module
+ - FIX: Minor fix to avoid PHP fatal error when VC is not active
+ - FIX: Other microfixes
+
+ver 1.4.5  [06/07/2016]
+
+ - UPDATE: just minor fixes, mostly for HealthFlex 1.4.5 packaging
+
+ver 1.4.4  [22/05/2016]
+
+ - UPDATE: just minor fixes, mostly for Avoir 1.0 packaging
+
+ver 1.4.3  [14/05/2016]
+
+ - UPDATE: just minor fixes, mostly for HealthFlex 1.4.3 packaging
+
+
+ver 1.4.2  [14/05/2016]
+
+ - NEW: Counter shortcode
+ - NEW: Typewriter shortcode
+ - UPDATE: Added master theme options for Media Panel module
+ - FIX: Social icons switch for Profiles Grid shortcode is working
+ - FIX: Align issue Heading Group shortcode
+ - FIX: Other microfixes
+
+ver 1.4.1  [01/04/2016]
+
+ - NEW: Posts Grid shortcode in beta
+ - UPDATE: Rebuilt for Terms Index shortcode class, to meet multilingual terms
+ - UPDATE: Added 'Design Options' tab and VC options panel layout for shortcodes: Classic Post, Button, Newsletter form, Heading Group, Terms Index
+ - FIX: Profiles Grid shortcode fix for profiles display order ( thanks to dpicot68, #2252 )
+
+ver 1.4  [11/03/2016]
+
+ - NEW: Demo Importer is ready!
+ - NEW: Replaced portfolio post type with projects
+ - UPDATE: Added support for projects on media panel
+ - UPDATE: Added some more information on System Info panel
+ - UPDATE: various minor updates
+
+ver 1.3 [18/02/2016]
+
+ - UPDATE: Added Revolution Slider support on Media panel module 
+ - FIX: Removed non used 'Add To Cart' button text snippet for WooCommerce module
+
+ver 1.2 [06/02/2016]
+
+ - UPDATE: ECWID support module 
+ - UPDATE: Minor updates to meet the latest template system changes
+ - UPDATE: POT file update
+
+ver 1.1  [23/01/2016]
+
+- FIX: small array call fix causing fatal error on PHP 5.3 hosting packages
+
+ver 1.0  [15/01/2016]
+
+- Initial launch

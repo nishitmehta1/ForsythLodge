@@ -1,0 +1,213 @@
+.disableOverflowY {   overflow-y: hidden;   }
+
+.vc_admin_label {
+  color        : #000 !important;
+  font-size    : 14px !important;
+  font-style   : normal !important;
+  margin-right : 16px !important;
+}
+
+.vc_admin_label label {
+  color          : #888 !important;
+  vertical-align : baseline !important;
+}
+
+.vc_row-fluid [class*="vc_span"] {  padding: 12px 0;  }
+
+.wpb_vc_column > .controls_column { top: 0; }
+
+.wpb_vc_column > .bottom-controls {
+  bottom : 0;
+  top    : auto;
+}
+
+.wpb_column_container {   padding-bottom: 4px;  }
+.wpb_content_element > .wpb_element_wrapper {  height: auto;  }
+
+#visual_composer_content .wpb_element_title {  line-height: 1em;  }
+
+.wpb_button.wpb_content_element .wpb_element_title {  display: none;  }
+
+.wpb_button.wpb_content_element .wpb_element_wrapper {
+  background   : #fff !important;
+  padding-left : 10px;
+}
+
+button.wpb_button {
+  -webkit-user-select : none;
+  background-image    : none;
+  border              : 1px solid transparent;
+  border-radius       : 0px;
+  cursor              : pointer;
+  display             : inline-block;
+  font-size           : 16px;
+  font-weight         : normal;
+  line-height         : 1.5;
+  margin-bottom       : 0;
+  padding             : 6px 12px;
+  text-align          : center;
+  vertical-align      : middle;
+  white-space         : nowrap;
+}
+
+button.wpb_button i {
+  color       : #fff !important;
+  height      : 24px;
+  line-height : 24px !important;
+  padding     : 0 4px;
+}
+
+button.wpb_button.btn-default {
+  background : #777;
+  color      : #fff !important;
+}
+
+button.wpb_button.btn-primary {
+  background : #e74c3c;
+  color      : #fff;
+}
+button.wpb_button.btn-info {
+  background : #5d89ac;
+  color      : #fff !important;
+}
+button.wpb_button.btn-success {
+  background : #427e77;
+  color      : #fff !important;
+}
+button.wpb_button.btn-warning {
+  background : #f18d38;
+  color      : #fff !important;
+}
+button.wpb_button.btn-danger {
+  background : #e74c3c;
+  color      : #fff !important;
+}
+button.wpb_button.btn-link {
+  background : none;
+  color      : #e74c3c !important;
+}
+button.wpb_button.btn-lg {
+  padding-top    : 11px;
+  padding-bottom : 11px;
+}
+button.wpb_button.btn-sm, button.wpb_button.btn-xs {
+  padding       : 5px 10px;
+  font-size     : 14px;
+  line-height   : 1.5;
+  border-radius : 0px;
+}
+button.wpb_button.btn-xs {  padding: 1px 5px;   }
+
+.wpb_icon.wpb_content_element .wpb_element_wrapper, .wpb_featuredicon.wpb_content_element .wpb_element_wrapper {
+  background   : #fff !important;
+  padding-left : 10px;
+}
+
+.wpb_panel.wpb_content_element h3 {
+  background: gray;
+  padding: 3px !important;
+  margin-bottom: 0px !important;
+}
+.wpb_panel.wpb_content_element .content {
+  border: 1px solid;
+  padding: 3px;
+}
+.wpb_panel.wpb_content_element .wpb_element_title {
+  display: none;
+}
+.wpb_panel.wpb_content_element .wpb_element_wrapper {
+  background: #fff !important;
+  padding-left: 10px;
+}
+
+.wpb_heading.wpb_content_element {
+  line-height: 1;
+}
+.wpb_heading.wpb_content_element .wpb_element_title {
+  display: none;
+}
+.wpb_heading.wpb_content_element .wpb_element_wrapper {
+  background: #fff !important;
+  padding-left: 10px;
+}
+
+.wpb_lead.wpb_content_element {
+  line-height: 1;
+}
+.wpb_lead.wpb_content_element .wpb_element_title {
+  display: none;
+}
+.wpb_lead.wpb_content_element .wpb_element_wrapper {
+  background: #fff !important;
+  padding-left: 10px;
+}
+
+.icon-wpb-plethora-row {
+  background-image: url(images/icons/row.png) !important;
+}
+
+/*** PLETHORA VC CUSTOMIZATIONS ***/
+
+/* PLETHORA SHORTCODES FOR VISUAL COMPOSER PANEL  */
+.wpb-content-layouts .wpb-layout-element-button .icon-wpb-sc_portfoliogrid { background-image: url(../images/plethora/plethora_shortcodes-32x32.png) !important; }
+.wpb_sc_portfoliogrid.wpb_content_element > .wpb_element_wrapper { background-image: url(../images/plethora/plethora_shortcodes-32x32.png) !important; }
+.wpb-content-layouts .wpb-layout-element-button .icon-wpb-sc_teaser { background-image: url(images/plethora/sc_teaser.png); }
+.wpb_sc_teaser.wpb_content_element > .wpb_element_wrapper { background-image: url(images/plethora/sc_teaser.png); }
+h3.vc_hidden, h4.vc_hidden { 
+  visibility: hidden; padding: 0; margin: 0; height: 0px !important; 
+  display: none !important;
+}
+
+/*** ROW HIDE BUTTON ***/
+span.vc_hide_button {
+  background  : #FCF8E3;
+  border      : 1px solid #FBEED5;
+  cursor      : pointer;
+  display     : block;
+  height      : 15px;
+  left        : 80px;
+  line-height : 19px;
+  overflow    : hidden;
+  padding     : 0 10px 6px 10px;
+  position    : absolute;
+}
+
+/* VC CUSTOM MODAL */
+
+.wpb_element_label {
+  background-color : #2B4B80;
+  color            : white;
+  font-weight      : 500;
+  margin-bottom    : 10px;
+  padding          : 10px;
+  text-transform   : uppercase;
+}
+/*.vc_shortcode-param {   background-color: #f9f9f9;    }
+*/
+.wpb_vc_param_value.dropdown_post_types,
+.wpb_vc_param_value.dropdown {
+  height: 40px !important;
+}
+
+/* VC EDIT PANEL SHORTCODE CONTENT */
+.wpb_plethora_entry img { /* padding-left:42px; */ padding-left: 0; height: 64px; transform: translate(50%,0%); }
+.wpb_plethora_filterablegrid  h3 {text-transform: capitalize; padding-left:0 !important; line-height: 40px !important; }
+.wpb_plethora_filterablegrid h3:after {content: "s Grid"; }
+.wpb_plethora_headinggroup .subtitle { padding-left: 42px; }
+.wpb_plethora_imagecompare img { padding-top: 15px; }
+.wpb_plethora_newsletterform .svg_newsletter_subtitle { padding-left: 42px; margin-top:0; }
+.wpb_plethora_pricingplan .subtitle { padding-left: 42px; margin-top:0; }
+.wpb_plethora_teaserbox .subtitle { padding-left: 42px; margin-top:0; }
+.wpb_plethora_fixedmedia h3.media_type:before { content: "Media type: "; }
+.wpb_plethora_fixedmedia h3.media_type { padding-left: 42px !important; height: 20px !important; }
+.wpb_plethora_fixedmedia img.image { padding-left: 42px !important; margin-top:0 !important; }
+.wpb_plethora_teaserimage img.image { margin-top: 10px !important; }
+.wpb_plethora_teaserimage h3.title { padding-left: 42px !important; margin-top:0 !important; }
+
+#profiles_select { height: auto !important; }
+
+/* CONSTRAIN WIDTH AND HEIGHT ON IMAGE PREVIEW THUMBNAILS */
+.wpb_content_element img {
+  max-height : 128px;
+  max-width  :128px;
+}

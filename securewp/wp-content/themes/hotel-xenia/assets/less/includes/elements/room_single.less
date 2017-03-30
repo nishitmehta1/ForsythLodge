@@ -1,0 +1,75 @@
+/*
+--------------------------------------------------------------  
+ 
+Room Single
+
+-------------------------------------------------------------- 
+*/ 
+
+.single-room .content_top {
+	padding-top: 96px;
+}
+
+.single-room .content_main {
+	padding-top: 0px;
+}
+
+.room_single_media {
+	> img { width: 100%; }
+	margin-bottom: 56px;
+}
+
+.room_single_amenities_wrapper {
+	margin-top: 56px;
+	margin-bottom: 48px;
+	.room_single_amenities {
+		padding-bottom: 36px;
+		border-bottom: solid 1px fade(@text-color, 7%);
+		i {
+			font-size: 24px;
+			border: 1px solid fade(@text-color, 7%);
+			border-radius: 50%;
+			width: 66px;
+			height: 66px;
+			line-height: 66px;
+			text-align: center;
+			margin-bottom: 10px;
+			@media (max-width: 991px) {	
+			}
+		}
+		span {
+			display: block;
+			font-size: 16px;
+			font-weight: 200;
+			text-transform: uppercase;
+			@media (max-width: 991px) {
+				display: none;				
+			}
+		}
+	}	
+}
+
+.room_single_media + .room_single_amenities_wrapper {margin-top: 0;}
+
+.room_single_title {
+	h1 {
+		.h2;
+		margin-top: 0;
+		margin-bottom: 6px;
+	}
+}
+
+.single-room .content_main_loop .room_single_subtitle,
+.single-room .content_main_loop .persons,
+.single-room .content_main_loop .target_price {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+p + .target_price::before {
+	content: '-';
+}
+
+p + .persons::before {
+	content: '- ';
+}

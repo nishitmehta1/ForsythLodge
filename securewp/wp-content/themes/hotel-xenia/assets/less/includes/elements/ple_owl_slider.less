@@ -1,0 +1,203 @@
+.stretchy_wrapper.ratio_slider {
+  padding-bottom: 320px !important;
+  @media only screen and (min-width: @screen-xs) {
+    padding-bottom: 400px !important;
+  }
+  @media only screen and (min-width: @screen-sm) {
+    padding-bottom: 580px !important;
+  }
+  @media only screen and (min-width: @screen-md) {
+    padding-bottom: 640px !important;
+  }
+  @media only screen and (min-width: @screen-lg) {
+    padding-bottom: 700px !important;
+  }  
+}
+
+.head_panel .slider_wrapper {
+  .container, .container-fluid { 
+    padding-top: 0;
+    padding-bottom: 0;
+    @media (max-width: 992px) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    @media (max-width: 768px) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}  
+
+// Plethora Owl-Slider
+
+.slider_wrapper {
+    position: relative;
+    .owl-carousel {
+        .item {
+            &:before { -webkit-backface-visibility: hidden; }
+            .background_cover;
+            .container, .container-fluid {
+                height: 100%;
+                position: relative;
+                min-height: inherit;
+            }
+        }
+    }
+}
+
+// Owlslider Arrows
+
+.slider_wrapper .owl-carousel .owl-nav {
+    height: 0px;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+
+.slider_wrapper .owl-carousel .owl-prev,
+.slider_wrapper .owl-carousel .owl-next {
+    position: absolute;
+    width: 44px;
+    height: 50px;
+    //display: block !important;
+    .translate(0,-50%);
+    background-image: url(../../../images/slider-arrows.png) !important;
+    background-repeat: no-repeat !important;
+    background-color: transparent !important;
+    margin: 0 !important;
+    opacity: 0.4;
+    &:hover {
+        opacity: 1;
+        background-image: url(../../../images/slider-arrows.png) !important;
+        background-repeat: no-repeat !important;
+        background-color: transparent !important;
+    }
+}
+
+.slider_wrapper .owl-carousel .owl-prev {
+  background-position: 0 0 !important;
+  left: 0;
+  top: 0;
+  text-indent: -2000px;
+}  
+
+.slider_wrapper .owl-carousel .owl-next {
+  background-position: -44px 0 !important;
+  top: 0;
+  right: 0;
+  text-indent: 2000px;
+  &:hover {
+    background-position: -44px 0 !important;
+  }
+}
+
+.slider_wrapper .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+// Plethora Owl-Slider Captions
+
+.slider_wrapper .caption {
+    position: absolute;
+    top: 50%;
+    .translate(0 , -50%);    
+    width: 50%;
+    left: 25%;
+    @media only screen and (max-width: @screen-sm) {
+      width: 80%;
+      left: 10%;
+    }
+    &.caption-full {
+        width: 80%;
+        left: 10%;
+    }
+    &.caption_left {
+        left: 0px;
+        right: inherit;
+    }
+    &.caption_right {
+        right: 0;
+        left: inherit;
+    }
+}
+
+.slider_wrapper .caption {
+  .inner[class*="_section"] {padding: 30px;}
+  .inner.transparent_film {padding: 30px;}
+  .inner[class*="_section"].transparent {padding: 0px;}
+  .inner {          
+    //img {width: inherit;}
+    .t1 {
+      font-family: @headings-font-family; 
+      font-weight: 700;
+      line-height: 1em;
+      font-size: 36px;
+      @media only screen and (min-width: @screen-xs) {
+        font-size: 46px;
+      }
+      @media only screen and (min-width: @screen-sm) {
+        font-size: 64px;
+      }
+      @media only screen and (min-width: @screen-md) {
+        font-size: 86px;
+      }
+      @media only screen and (min-width: @screen-lg) {
+        font-size: 86px;
+      }  
+    } 
+    .t2 {
+      font-family: @headings-font-family;
+      font-size: 12px;
+      letter-spacing: 4px;
+      @media only screen and (min-width: @screen-xs) {
+        font-size: 13px;
+        letter-spacing: 5px;
+      }
+      @media only screen and (min-width: @screen-sm) {
+        font-size: 14px;
+        letter-spacing: 7px;
+      }
+      font-weight: 300;
+      line-height: 1.1em;
+      margin: 14px 0 7px;
+    }
+    .t3 {
+      font-family: @headings-font-family;
+      font-size: 13px;
+      @media only screen and (min-width: @screen-xs) {
+        font-size: 14px;
+      }
+      font-weight: 300;
+      line-height: 1.1em;
+      letter-spacing: 7px;
+      margin: 14px 0 7px;
+    }    
+    p.desc {
+      font-size: 16px;
+      @media only screen and (min-width: @screen-sm) {
+        font-size: 18px;
+      }
+      margin-bottom: 14px;
+      border-color: inherit; 
+      &:before {
+        content       : "";
+        border-bottom : 1px solid;  
+        border-color: inherit;          
+        display       : block;
+        margin    : 24px 0 16px 0;
+      }
+    }
+    .ple_slider_button {margin-top: 24px;}
+    //a.btn {margin-bottom: 14px;}
+  }
+  &.no-line {
+    p.desc:before {
+      border-bottom : 0px !important;            
+      margin    : 8px 0 0 0 !important;
+    }
+  }
+}

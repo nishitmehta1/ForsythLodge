@@ -1,0 +1,104 @@
+/*** Head Panel a.k.a. Media Panel ***/
+
+.head_panel {
+  position: relative;
+  .background_cover;
+  .container, .container-fluid { 
+    padding-top: @head-panel-hgroup-padding-top; padding-bottom: @head-panel-hgroup-padding-bottom;
+    min-height: @full-width-photo-min-panel-height;
+    @media (max-width: 992px) {
+      padding-top: @head-panel-hgroup-padding-top-sm; padding-bottom: @head-panel-hgroup-padding-bottom-sm;
+      min-height: @full-width-photo-min-panel-height-sm;
+    }
+    @media (max-width: 768px) {
+      padding-top: @head-panel-hgroup-padding-top-xs; padding-bottom: @head-panel-hgroup-padding-bottom-xs;
+      min-height: @full-width-photo-min-panel-height-xs;
+    }
+  }
+  &.full_height {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    .container, .container_fluid {
+      padding-bottom: 48px;
+      padding-top: 48px;
+    }
+    .head_panel {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.head_panel.full_height .ratio_slider {
+padding-bottom: calc(100vh) !important;
+}
+
+
+/*** Head Panel's Heading Group ***/
+
+.head_panel .hgroup {
+  &.text-center.width_80pc,
+  &.text-center.width_50pc {margin: 0 auto;}
+  p.pretitle {
+    font-family: @font-family-alternative;
+    margin: 0;
+    font-size: 14px;
+    @media (max-width: 992px) {
+      font-size: 13px;
+      letter-spacing: 4px;
+    }
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    + h1.title {
+      margin-top: 5px;
+      @media (max-width: 992px) {
+        margin-top: 0px;
+      }
+      @media (max-width: 768px) {
+        margin-top: 0px;
+      }
+    }
+  }
+  h1.title {
+    line-height: 1em;
+    + p.subtitle { 
+      padding: 14px 0 0 0;
+      + .ple_breadcrumb_wrapper { padding: 8px 0 0 0; }
+    }
+    + .ple_breadcrumb_wrapper { padding: 16px 0 0 0; }
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  &.large_hgroup_styling h1.title {
+    font-size: @head-panel-title-font-size;
+    @media (max-width: 992px) {
+      font-size: @head-panel-title-font-size-sm;
+      + p.subtitle { padding: 0; }
+    }
+    @media (max-width: 768px) {
+      font-size: @head-panel-title-font-size-xs;
+    }
+  }
+  p.subtitle {
+    margin: 0;
+  }
+}
+
+/*** Head Panel MAP ***/
+
+.head_panel .map {
+  height: @map-panel-height !important;
+  img {max-width: none !important;}
+  @media (max-width: 992px) {
+    min-height: @map-panel-height-sm;
+  }
+  @media (max-width: 768px) {
+    min-height: @map-panel-height-xs;
+  }
+}  

@@ -1,0 +1,111 @@
+/* - Single Post - */
+
+.single-post h1.post_title {
+  .h2;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.post_figure_and_info {
+  figure { 
+    &.stretchy_wrapper img { z-index:-1; }
+    margin-bottom: 24px;
+  }
+  p.lead {margin-bottom: 4px;}
+  + .blog_post_single_content {
+    margin-top: 24px;
+  }
+}
+
+.blog_post_single_meta {
+  font-size: 15px;
+  > span { padding-right: 5px; }
+  
+}
+
+.post_comments {
+  margin: 48px 0 0 0;
+  .comment .comment {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    figure img {margin-top: 0;}
+  }
+  .comment_name { 
+    font-weight: bold;
+    padding-top : 0px;
+    font-family: @font-family-alternative;
+    text-transform: uppercase;
+    font-size: 18px;
+    a { font-weight: normal; }
+  }
+  .comment_date {  
+    font-size: 12px; 
+    opacity: .7;
+    margin-bottom: 12px;
+  }
+  .the_comment p {
+    font-size: 16px;
+  }
+      
+}
+
+.new_comment {
+  margin: 48px 0 0 0;
+  .comment-respond {
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.1;
+      margin-bottom: 24px;
+      margin-top: 0;
+    }
+    form.comment-form {
+      .row {
+        margin-bottom: 24px;
+      }
+      .form-control {}
+      textarea {}
+      p.form-submit {}
+    }
+  }
+}
+
+// Pagination
+
+.pagination > li {
+  border-radius:0px;
+  margin-right: 0px !important;
+  display: inline-block;
+  margin-top: 48px;
+  &.active a {
+    border: solid 1px;
+  }
+}
+
+.pagination > li > a {
+  background-color: transparent;
+  border:0px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius:0px;
+  font-size: 14px;
+  color: inherit;
+  &:focus {
+    background-color: transparent;
+    color: @brand-primary;
+  }
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: inherit;
+    color: inherit;
+    border-color: inherit;
+}
+
+
+    
+// .comment div[class^="col-"] {
+//   margin-bottom : 10px;
+//   margin-top    : 10px;
+// }

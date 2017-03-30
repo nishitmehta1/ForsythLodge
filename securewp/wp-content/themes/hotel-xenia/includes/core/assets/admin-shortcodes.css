@@ -1,0 +1,17 @@
+
+.wpb-content-layouts .wpb-layout-element-button .icon-wpb-sc_portfoliogrid {
+    background-image: url(images/icons/sc_portfoliogrid.png);
+}
+.wpb_sc_portfoliogrid.wpb_content_element > .wpb_element_wrapper {
+   background-image: url(images/icons/sc_portfoliogrid.png);
+}
+
+.wpb-content-layouts .wpb-layout-element-button .icon-wpb-sc_teaser {
+    background-image: url(images/icons/sc_teaser.png);
+}
+.wpb_sc_teaser.wpb_content_element > .wpb_element_wrapper {
+   background-image: url(images/icons/sc_teaser.png);
+}
+
+.wpb_element_wrapper h3 { font-size: 1.1em; line-height: 1.1em !important;} 
+.wpb_element_wrapper h4 { font-size: 0.9em; line-height: 0.9em !important; color:#555; font-style: italic;} 
