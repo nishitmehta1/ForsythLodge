@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'LibreBaskervilleItalic';
+    src: url('fonts/LibreBaskervilleItalic.eot');
+    src: url('fonts/LibreBaskervilleItalic.eot') format('embedded-opentype'),
+         url('fonts/LibreBaskervilleItalic.woff2') format('woff2'),
+         url('fonts/LibreBaskervilleItalic.woff') format('woff'),
+         url('fonts/LibreBaskervilleItalic.ttf') format('truetype'),
+         url('fonts/LibreBaskervilleItalic.svg#LibreBaskervilleItalic') format('svg');
+}

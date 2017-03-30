@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'LibreBaskervilleBold';
+    src: url('fonts/LibreBaskervilleBold.eot');
+    src: url('fonts/LibreBaskervilleBold.eot') format('embedded-opentype'),
+         url('fonts/LibreBaskervilleBold.woff2') format('woff2'),
+         url('fonts/LibreBaskervilleBold.woff') format('woff'),
+         url('fonts/LibreBaskervilleBold.ttf') format('truetype'),
+         url('fonts/LibreBaskervilleBold.svg#LibreBaskervilleBold') format('svg');
+}
