@@ -1,3 +1,83 @@
 .slider-left {
 	padding: 0;
 }
+
+.slider-left .owl-nav,
+.slider-left .owl-dots {
+	display: none;
+}
+
+.owl-theme .owl-nav {
+	margin-top: 0;
+}
+
+.content-carousel {
+	padding: 0 50px;
+}
+
+.owl-theme .owl-dots {
+	text-align: left;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span,
+.owl-theme .owl-dots .owl-dot span {
+	margin: 5px;
+	background: white;
+	border: 2px solid #a3a3a3;
+}
+
+.owl-theme .owl-dots .owl-dot:first-child span {
+	margin-left: 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+	background: black;
+	border: 2px solid #000;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+	background: url(images/next.svg);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
+	background: url(images/next.svg);
+}
+
+.owl-carousel .owl-nav .owl-next {
+	right: -50px;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	left: -50px;
+}
+
+.tour-category {
+	font-size: 14px;
+	line-height: 20px;
+	font-style: italic;
+	color: #2a2a2a;
+	text-transform: uppercase;
+}
+
+.tour-title {
+	font-family: 'LibreBaskerville-Bold';
+	font-size: 32px;
+	line-height: 40px;
+	color: #2a2a2a;
+}

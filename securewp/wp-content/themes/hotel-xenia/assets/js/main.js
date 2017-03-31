@@ -22,7 +22,7 @@
             dots: true,
             loop: true,
             touchDrag  : false,
-     mouseDrag  : false,
+            mouseDrag  : false,
             transitionStyle: "fade",
           }).on('changed.owl.carousel', syncPosition);
 
