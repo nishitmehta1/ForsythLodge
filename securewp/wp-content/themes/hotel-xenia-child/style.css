@@ -16,6 +16,7 @@ Template: hotel-xenia
 @import "css/slider-section.css";
 @import "css/explore-section.css";
 @import "css/contact-section.css";
+@import "css/footer.css";
 @import "homepage.css";
 
 body {

@@ -94,6 +94,16 @@ for Plethora_Theme::add_container_part() )
 
 		?>
 	</div>
+
+	<footer class="custom-footer">
+		<ul>
+			<li><a href="#">FAQs</a></li>
+			<li><a href="#">Directions</a></li>
+			<li><a href="#">Booking Support</a></li>
+			<li><a href="#">Cancellation Policy</a></li>
+			<li><a href="#">Terms & Conditions</a></li>
+		</ul>
+	</footer>
 	<?php 
 	Plethora_Theme::dev_comment('  FINISH >> =================== CONTENT  ==================', 'layout');
 
