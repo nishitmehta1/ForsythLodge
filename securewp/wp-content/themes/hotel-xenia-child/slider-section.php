@@ -167,5 +167,3 @@
 		</div>
 	</div>
 </div>
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMa5XfH_HqppNEhzR8mB5IV42w8y8YAxU"></script>

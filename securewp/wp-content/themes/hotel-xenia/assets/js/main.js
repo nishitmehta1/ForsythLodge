@@ -237,7 +237,6 @@
         var lat = 22.595836,
             long = 78.1478153;
 
-        if (!typeof google == 'undefined') {
 
           google.maps.event.addDomListener(window, 'load', init);
 
@@ -263,7 +262,6 @@
                 icon: templateUrl+'/images/marker.png'
             });
           }
-        }
       },
 
       loadBindings: function() {
