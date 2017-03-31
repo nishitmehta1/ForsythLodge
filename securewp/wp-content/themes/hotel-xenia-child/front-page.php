@@ -8,7 +8,7 @@ Template Name: homepage template
 
 
 <div class="background-image-section">
-	<div class="background-description">
+	<div class="background-description container">
 		<div class="textbox">
 			<h1>
 				Satpura National Park<br>
