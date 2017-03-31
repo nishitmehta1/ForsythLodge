@@ -16,3 +16,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // NO DIRECT ACCESS
 //---------------------------------------------------------------//
 //						DO YOUR STUFF HERE!!
 //---------------------------------------------------------------//
+
+wp_enqueue_style( 'owl.carousel.main', get_template_directory_uri() . '/assets/css/owl.carousel.min.css',false,'2.2','all');
+wp_enqueue_style( 'owl.theme.main', get_template_directory_uri() . '/assets/css/owl.theme.default.min.css',false,'2.2','all');
+
+wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array ( 'jquery' ), 1.1, true);
+wp_enqueue_script( 'owl.carousel.2.22.1', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array ( 'jquery' ), 2.2, true);
+
