@@ -19,3 +19,10 @@ Template: hotel-xenia
 	font-family: 'LibreBaskerville-Bold';
 	color: red;
 }
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
