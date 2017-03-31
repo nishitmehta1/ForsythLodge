@@ -159,7 +159,7 @@
 }
 
 .visible-below-1200 {
-	display: none;
+	display: none !important;
 }
 
 @media (min-width: 1200px) {
@@ -193,10 +193,10 @@
 
 @media (max-width: 1200px) {
 	.visible-below-1200 {
-		display: block;
+		display: block !important;
 	}
 	.hide-below-1200 {
-		display: none;
+		display: none !important;
 	}
 	.slider-left,
 	.content-carousel-parent {

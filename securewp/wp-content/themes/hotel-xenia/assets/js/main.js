@@ -4,9 +4,10 @@
     FLApp = {
 
       init: function() {
-          this.loadBindings();
-          this.syncOwlCarouselFirstSection();
-          this.syncOwlCarouselSecondSection();
+        this.loadBindings();
+        this.syncOwlCarouselFirstSection();
+        this.syncOwlCarouselSecondSection();
+        this.syncOwlCarouselSecondSectionMobileVersion();
       },
 
       syncOwlCarouselFirstSection: function() {
@@ -23,7 +24,8 @@
           loop: true,
           touchDrag  : false,
           mouseDrag  : false,
-          transitionStyle: "fade",
+          animateIn: 'fadeIn',
+          animateOut: 'fadeOut',
         }).on('changed.owl.carousel', syncPosition);
 
         sync2
@@ -36,7 +38,8 @@
           nav: true,
           slideSpeed : 1000,
           slideBy: 1,
-          transitionStyle: "fade",
+          animateIn: 'fadeIn',
+          animateOut: 'fadeOut',
         }).on('changed.owl.carousel', syncPosition2);
 
         function syncPosition(el) {
@@ -86,7 +89,7 @@
           sync22 = $("#sync22"),
           syncedSecondary = true;
 
-        sync11.owlCarousel({
+                  sync11.owlCarousel({
           items : 1,
           slideSpeed : 1000,
           nav: true,
@@ -95,7 +98,8 @@
           loop: true,
           touchDrag  : false,
           mouseDrag  : false,
-          transitionStyle: "fade",
+          animateIn: 'fadeIn',
+          animateOut: 'fadeOut',
         }).on('changed.owl.carousel', syncPosition);
 
         sync22
@@ -108,7 +112,8 @@
           nav: true,
           slideSpeed : 1000,
           slideBy: 1,
-          transitionStyle: "fade",
+          animateIn: 'fadeIn',
+          animateOut: 'fadeOut',
         }).on('changed.owl.carousel', syncPosition2);
 
         function syncPosition(el) {
@@ -150,6 +155,80 @@
           e.preventDefault();
           var number = $(this).index();
           sync11.data('owl.carousel').to(number, 300, true);
+        });
+      },
+
+      syncOwlCarouselSecondSectionMobileVersion: function() {
+        var sync111 = $("#sync111"),
+          sync222 = $("#sync222"),
+          syncedSecondary = true;
+
+                  sync111.owlCarousel({
+          items : 1,
+          slideSpeed : 1000,
+          nav: true,
+          autoplay: false,
+          dots: true,
+          loop: true,
+          touchDrag  : false,
+          mouseDrag  : false,
+          animateIn: 'fadeIn',
+          animateOut: 'fadeOut',
+        }).on('changed.owl.carousel', syncPosition);
+
+        sync222
+          .on('initialized.owl.carousel', function () {
+            sync222.find(".owl-item").eq(0).addClass("current");
+          })
+          .owlCarousel({
+          items : 1,
+          dots: true,
+          nav: true,
+          slideSpeed : 1000,
+          slideBy: 1,
+          animateIn: 'fadeIn',
+          animateOut: 'fadeOut',
+        }).on('changed.owl.carousel', syncPosition2);
+
+        function syncPosition(el) {
+          var count = el.item.count-1;
+          var current = Math.round(el.item.index - (el.item.count/2) - .5);
+          
+          if(current < 0) {
+            current = count;
+          }
+          if(current > count) {
+            current = 0;
+          }
+
+          sync222
+            .find(".owl-item")
+            .removeClass("current")
+            .eq(current)
+            .addClass("current");
+          var onscreen = sync222.find('.owl-item.active').length - 1;
+          var start = sync222.find('.owl-item.active').first().index();
+          var end = sync222.find('.owl-item.active').last().index();
+          
+          if (current > end) {
+            sync222.data('owl.carousel').to(current, 100, true);
+          }
+          if (current < start) {
+            sync222.data('owl.carousel').to(current - onscreen, 100, true);
+          }
+        }
+
+        function syncPosition2(el) {
+          if(syncedSecondary) {
+            var number = el.item.index;
+            sync111.data('owl.carousel').to(number, 100, true);
+          }
+        }
+
+        sync222.on("click", ".owl-item", function(e){
+          e.preventDefault();
+          var number = $(this).index();
+          sync111.data('owl.carousel').to(number, 300, true);
         });
       },
 
