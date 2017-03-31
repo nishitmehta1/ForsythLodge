@@ -15,11 +15,48 @@ Template: hotel-xenia
 @import "font.css";
 @import "css/slider-section.css";
 @import "css/explore-section.css";
+@import "css/contact-section.css";
 @import "homepage.css";
 
+body {
+	background: white;
+}
+ 
 .test{
 	font-family: 'LibreBaskerville-Bold';
 	color: red;
+}
+
+.text-over-title {
+	position: relative;
+	text-align: center;
+}
+
+.text-over-title h2,
+.text-over-title h1 {
+	font-family: 'LibreBaskerville-Regular';
+	font-weight: 400;
+	margin: 0;
+}
+
+.text-over-title h1 {
+	font-size: 80px;
+	line-height: 88px;
+	color: #f2f2f2;
+	word-wrap: break-word;
+}
+
+.text-over-title h2 {
+	word-wrap: break-word;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+	font-size: 32px;
+	line-height: 38px;
+	color: #2a2a2a;
+	text-transform: capitalize;
 }
 
 
@@ -29,5 +66,36 @@ Template: hotel-xenia
 	    display: -webkit-flex;
 	    display: -ms-flexbox;
 	    display: flex;
+	}
+}
+
+@media (max-width: 767px) {
+	.text-over-title h1 {
+	    font-size: 70px;
+	}
+	.text-over-title h2 {
+	    bottom: 5px;
+	    font-size: 22px;
+	    line-height: 38px;
+	}
+}
+
+@media (max-width: 480px) {
+	.text-over-title h1 {
+	    font-size: 40px;
+	    line-height: 60px;
+	}
+	.text-over-title h2 {
+		position: initial;
+	    bottom: 0;
+	    font-size: 18px;
+	    line-height: 24px;
+	}
+	.explore-section .button-wrapper a {
+	    display: block;
+	}
+	.explore-section .button-wrapper a:first-child {
+	    margin-right: 0;
+	    margin-bottom: 15px;
 	}
 }

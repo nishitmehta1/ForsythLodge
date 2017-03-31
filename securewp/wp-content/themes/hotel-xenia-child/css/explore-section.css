@@ -1,0 +1,23 @@
+.explore-section {
+	margin-top: 80px;
+}
+
+.explore-section .leaf-image {
+	margin: 50px auto;
+}
+
+.explore-section .button-wrapper {
+	text-align: center;
+    margin-top: 50px;
+}
+
+.explore-section .button-wrapper a:first-child {
+	margin-right: 30px;
+}
+
+.explore-section .description {
+	font-size: 16px;
+	line-height: 30px;
+	color: #2a2a2a;
+	margin: 0;
+}

@@ -1,0 +1,92 @@
+.contact-section {
+	margin-top: 100px;
+}
+
+.contact-section .contact-info-block {
+	margin: 0 0 30px 0;
+}
+
+.contact-section .contact-info-block .section-title {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #151515;
+	margin-bottom: 5px;
+}
+
+.contact-section .contact-info-block p {
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #2a2a2a;
+	margin: 0;
+}
+
+.contact-section .social-links {
+	padding: 0;
+    margin: 10px 0 0;
+	line-height: 0;
+	list-style-type: none;
+}
+
+.contact-section .social-links li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.contact-section .social-links li:last-child {
+	margin-right: 0;
+}
+
+.contact-section .social-links a {
+	display: block;
+	background-repeat: no-repeat;
+    height: 21px;
+}
+
+.contact-section .social-links .fb {
+	background-image: url(images/facebook.svg);
+	width: 11px;
+}
+
+.contact-section .social-links .twitter {
+	background-image: url(images/twitter.svg);
+	width: 26px;
+}
+
+.contact-section .social-links .insta {
+	background-image: url(images/instagram.svg);
+	width: 21px;
+}
+
+.contact-section .write-to-us-btn {
+	margin-top: 25px;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+.contact-section-child {
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+
+
+@media (max-width: 992px) {
+	#map {
+	    height: 300px;
+	}
+	.contact-section-child {
+	    display: block;
+	    flex-direction: column;
+	    justify-content: center;
+	    text-align: center;
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+}

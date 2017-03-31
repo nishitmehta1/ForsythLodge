@@ -142,6 +142,10 @@
 	padding: 20px 30px;
 }
 
+.filled-button.brown {
+	background: #a06624;
+}
+
 .filled-button:hover {
 	color: white;
 }

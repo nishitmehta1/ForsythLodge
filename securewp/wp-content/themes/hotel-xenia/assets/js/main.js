@@ -5,6 +5,7 @@
 
       init: function() {
         this.loadBindings();
+        this.googleMap();
         this.syncOwlCarouselFirstSection();
         this.syncOwlCarouselSecondSection();
         this.syncOwlCarouselSecondSectionMobileVersion();
@@ -230,6 +231,36 @@
           var number = $(this).index();
           sync111.data('owl.carousel').to(number, 300, true);
         });
+      },
+
+      googleMap: function() {
+        var lat = 22.595836,
+            long = 78.1478153;
+
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+          var mapOptions = {
+            scrollwheel: false,
+    navigationControl: false,
+    mapTypeControl: false,
+    scaleControl: false,
+    draggable: false,
+              zoom: 10,
+              center:new google.maps.LatLng(lat, long),
+              styles: [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2e5d4"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{"featureType":"road","elementType":"all","stylers":[{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]}]
+          };
+
+          var mapElement = document.getElementById('map'),
+              map = new google.maps.Map(mapElement, mapOptions);
+
+          var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(lat, long),
+              map: map,
+              title: "Forsyth's Lodge",
+              icon: templateUrl+'/images/marker.png'
+          });
+        }
       },
 
       loadBindings: function() {

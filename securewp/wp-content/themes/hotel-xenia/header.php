@@ -45,8 +45,16 @@ for Plethora_Theme::add_container_part() )
 	 */
 	 do_action('plethora_head_before');  
 
+
 	  // Call wp_head
 	 wp_head(); ?>
+	 <script type="text/javascript">
+			var templateUrl = '<?php echo get_bloginfo("template_url"); ?>',
+			    wpUrl = '<?php echo get_bloginfo("wpurl"); ?>',
+			    homeUrl = '<?php echo home_url(); ?>',
+			    env = '<?php echo $env ?>';
+			    pageTitle = '<?php echo get_the_title(); ?>';
+		</script>
 </head>
 <body <?php body_class(); ?>>
 	<?php
