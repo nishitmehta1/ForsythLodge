@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<?php include 'main-section.php'; ?>
+<?php include 'slider-section.php'; ?>
 
 
 
