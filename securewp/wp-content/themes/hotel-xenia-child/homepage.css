@@ -25,3 +25,6 @@
 	top: 50%;
 	margin-top: -100px;
 }
+.toggler_and_tools{
+	display: none;
+}
