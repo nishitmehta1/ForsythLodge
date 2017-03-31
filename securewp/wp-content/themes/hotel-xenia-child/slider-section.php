@@ -7,7 +7,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 content-carousel-parent">
-			<div class="col-md-12 col-lg-8">
+			<div class="col-md-12">
 				<div class="content-carousel">
 					<div id="sync2" class="owl-carousel owl-theme">
 					  	<div class="item">

@@ -12,7 +12,7 @@
 }
 
 .content-carousel {
-	padding: 0 30px;
+	padding: 0 50px;
 }
 
 .owl-theme .owl-dots {
@@ -55,7 +55,7 @@
 }
 
 .owl-carousel .owl-nav .owl-next {
-	right: -30px;
+	right: -50px;
 }
 
 .owl-carousel .owl-nav .owl-prev {
@@ -64,7 +64,7 @@
 	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
-	left: -30px;
+	left: -50px;
 }
 
 .content-carousel-parent {
