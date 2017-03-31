@@ -14,6 +14,7 @@ Template: hotel-xenia
 
 @import "font.css";
 @import "css/slider-section.css";
+@import "css/homepage.css";
 
 .test{
 	font-family: 'LibreBaskerville-Bold';

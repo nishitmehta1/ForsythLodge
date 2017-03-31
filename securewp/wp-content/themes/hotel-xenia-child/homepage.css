@@ -1,0 +1,27 @@
+.background-image-section{
+	background-image: url('css/images/homepage-background.jpg');
+	height:600px;
+	background-size: cover;
+	background-position: 100%;
+	position: relative;
+}
+
+.content_main{
+	padding-top: 0px !important;
+}
+
+.home .container-fluid{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.background-description .textbox h1{
+	font-family: 'LibreBaskerville-Italic';
+	font-size: 50px;
+	color:#ffffff;
+}
+.background-description .textbox{
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+}
