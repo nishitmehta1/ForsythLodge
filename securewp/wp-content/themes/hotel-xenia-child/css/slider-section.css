@@ -129,11 +129,15 @@
 	margin-right: 15px;
 }
 
+.bordered-button,
+.filled-button {
+	font-size: 18px;
+	line-height: 24px;
+}
+
 .filled-button {
 	display: inline-block;
 	background: #191919;
-	font-size: 18px;
-	line-height: 24px;
 	color: white;
 	padding: 20px 30px;
 }
@@ -146,12 +150,73 @@
 	display: inline-block;
 	background: white;
 	border: 2px solid #191919;
-	font-size: 18px;
-	line-height: 24px;
 	color: #191919;
 	padding: 18px 40px;
 }
 
 .bordered-button:hover {
 	color: #191919;
+}
+
+.visible-below-1200 {
+	display: none;
+}
+
+@media (min-width: 1200px) {
+	.slider-left img {
+		height: 560px;
+		object-fit: cover;
+	}
+}
+
+@media (max-width: 1400px) {
+	.leaf-image {
+	    margin: 20px 0;
+	}
+	.tour-additional-info {
+	    margin-top: 20px;
+	}
+	.tour-buttons {
+	    margin-top: 40px;
+	}
+	.bordered-button {
+		padding: 13px 25px;
+	}
+	.filled-button {
+		padding: 15px 25px;
+	}
+	.bordered-button,
+	.filled-button {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.visible-below-1200 {
+		display: block;
+	}
+	.hide-below-1200 {
+		display: none;
+	}
+	.slider-left,
+	.content-carousel-parent {
+		display: block;
+		width: 100%;
+	}
+	.content-carousel {
+	    padding: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.owl-theme .owl-nav {
+		display: none;
+	}
+	.content-carousel {
+	    padding: 50px 20px 35px;
+	}
+	.tour-buttons a:first-child {
+	    margin-right: 15px;
+	    margin-bottom: 15px;
+	}
 }
