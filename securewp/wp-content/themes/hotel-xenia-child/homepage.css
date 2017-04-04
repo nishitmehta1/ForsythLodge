@@ -34,3 +34,16 @@
 .toggler_and_tools{
 	display: none;
 }
+
+.welcome-section {
+	padding: 60px 0 80px;
+}
+
+.welcome-section .leaf-image {
+	margin: 70px auto 50px;
+}
+
+.welcome-section .button-wrapper {
+	margin-top: 40px;
+    text-align: center;
+}

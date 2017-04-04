@@ -51,7 +51,7 @@ body {
 .text-over-title h2 {
 	word-wrap: break-word;
 	position: absolute;
-    bottom: 0;
+    top: 50%;
     width: 100%;
     left: 0;
     right: 0;
