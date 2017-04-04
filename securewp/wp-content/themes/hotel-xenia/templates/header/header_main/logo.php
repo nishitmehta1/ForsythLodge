@@ -16,8 +16,7 @@ extract( $options );
 <div class="<?php echo esc_attr( $logo_class ); ?>">
 
   <a href="<?php echo esc_attr( $logo_url ); ?>" class="<?php echo esc_attr( $logo_url_class ); ?>">
-    <?php echo wp_kses( $logo_output_title, Plethora_Theme::allowed_html_for( 'paragraph' ) ); ?>
+    <img src="<?php echo get_bloginfo("template_url"); ?>/images/logo.svg" alt="Site Logo">
   </a>
-  <?php echo wp_kses( $logo_output_subtitle, Plethora_Theme::allowed_html_for( 'paragraph' ) ); ?>
 
 </div>

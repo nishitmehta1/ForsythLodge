@@ -1,8 +1,8 @@
 .background-image-section{
 	background-image: url('css/images/homepage-background.jpg');
-	height:600px;
+	height: 800px;
 	background-size: cover;
-	background-position: 100%;
+	background-position: center;
 	position: relative;
 }
 
@@ -16,15 +16,20 @@
 	padding-left: 0px !important;
 }
 
-.background-description .textbox h1{
+.background-description .textbox h1 {
 	font-family: 'LibreBaskerville-Italic';
-	font-size: 50px;
-	color:#ffffff;
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 0;
 }
+
 .background-description .textbox{
 	position: absolute;
 	top: 50%;
-	margin-top: -100px;
+	margin-top: -60px;
 }
 .toggler_and_tools{
 	display: none;

@@ -123,6 +123,7 @@ for Plethora_Theme::add_container_part() )
 		 	Plethora_Theme::dev_comment(' START >> ========================= HEADER MAIN ========================', 'layout');
 			?>
 			<div<?php echo Plethora_Theme::get_container_attrs( 'header_main' ); ?>>
+
 				<div class="<?php echo Plethora_Theme::get_container_type( 'header' ); ?>">
 			<?php
 
