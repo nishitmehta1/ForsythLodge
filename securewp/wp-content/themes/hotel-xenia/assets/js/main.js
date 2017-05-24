@@ -9,6 +9,7 @@
         this.syncOwlCarouselFirstSection();
         this.syncOwlCarouselSecondSection();
         this.syncOwlCarouselSecondSectionMobileVersion();
+        this.enquiryDatePicker();
       },
 
       syncOwlCarouselFirstSection: function() {
@@ -266,6 +267,11 @@
 
       loadBindings: function() {
         var thisApp = this;
+      },
+
+      enquiryDatePicker: function() {
+        $( "#arrival-date" ).datepicker();
+        $( "#departure-date" ).datepicker();
       }
     };
 

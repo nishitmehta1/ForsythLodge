@@ -41,6 +41,78 @@
     height: 2px;
 }
 
-.content_titles {
-    display: none;
+.pre-primary-menu {
+	position: absolute;
+	z-index: 10;
+	right: 11.5%;
+	top:4%;
+}
+
+.pre-primary-menu .png-img {
+	 height: 22px;
+	 background-repeat: no-repeat;
+}
+
+.pre-primary-menu ul li a {
+	display: block;
+}
+
+.pre-primary-menu .book-now-btn a{
+	background-color: #000;
+	color: #fff;
+	padding: 20px 30px;
+	font-size: 16px;
+	position: relative;
+	top: -5px;
+}
+
+.pre-primary-menu ul {
+	padding: 0;
+    margin: 10px 0 0;
+	line-height: 0;
+	list-style-type: none;
+}
+
+.pre-primary-menu li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.pre-primary-menu li:last-child {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.pre-primary-menu .fb {
+	background-image: url(images/header_facebook.svg);
+	width: 11px;
+}
+
+.pre-primary-menu .twitter {
+	background-image: url(images/header_twitter.svg);
+	width: 28px;
+}
+
+.pre-primary-menu .insta {
+	background-image: url(images/header_instagram.svg);
+	width: 22px;
+}
+
+.main_nav_wrapper {
+	top: 75%;
+}
+
+@media (min-width: 992px) {
+	.toggler_and_tools{
+		display: none;
+	}
+}
+
+@media (max-width: 992px) {
+	.toggler_and_tools{
+		display: block;
+	}
+	.main_nav_wrapper{
+		display: none;
+	}
 }

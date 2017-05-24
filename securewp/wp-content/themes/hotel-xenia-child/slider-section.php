@@ -40,11 +40,22 @@
 					<div class="tour-additional-info">
 						<p class="tour-price"><span>Rs. </span>22,500</p>
 						<div class="tour-buttons">
-							<a href="#" class="filled-button">Add to cart</a>
+							<a href="#" class="filled-button">Book now</a>
 							<a href="#" class="bordered-button">Explore all experiences</a>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="welcome-section">
+	<div class="container">
+		<div class="col-md-offset-2 col-md-8">
+			<div class="text-over-title">
+				<h1>SAFARIS</h1>
+				<h2>Your Greatest Adventure Awaits</h2>
 			</div>
 		</div>
 	</div>
@@ -77,7 +88,7 @@
 					</div>
 					<div class="tour-additional-info">
 						<div class="tour-buttons">
-							<a href="#" class="bordered-button">Explore all experiences</a>
+							<a href="#" class="bordered-button">Explore all activities</a>
 						</div>
 					</div>
 				</div>
@@ -105,7 +116,7 @@
 					</div>
 					<div class="tour-additional-info">
 						<div class="tour-buttons">
-							<a href="#" class="bordered-button">Explore all experiences</a>
+							<a href="#" class="bordered-button">Explore all activities</a>
 						</div>
 					</div>
 				</div>
@@ -123,9 +134,9 @@
 <div class="explore-section">
 	<div class="container">
 		<div class="col-md-offset-2 col-md-8">
-			<div class="text-over-title">
-				<h1>Explore</h1>
-				<h2>The Ultimate in Wilderness Luxury</h2>
+			<div class="text-over-title last-text-over-title">
+				<h1>FORSYTH<BR>LODGE</h1>
+				<h2>Where Luxury Runs Wild & Free</h2>
 			</div>
 			<div class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></div>
 			<p class="description">
