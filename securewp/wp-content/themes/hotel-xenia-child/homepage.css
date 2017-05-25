@@ -58,25 +58,16 @@
 	width: auto;
 	position: center;
 	margin: 62px 20px 40px 0;
-    background: #E6E6E6;
+    background-color: #E6E6E6;
+    background-image: url(css/images/calender.svg);
+    background-repeat: no-repeat;
+    background-position: 96% 10px;
+    background-size: 22px;
 }
 
 .date-picker-container{
     display: inline-block;
     position: relative;
-}
-
-.date-picker-container:before {
-    content: ' ';
-    background-image: url(css/images/calender.svg);
-    background-repeat: no-repeat;
-    background-position: 96% 10px;
-    background-size: 22px;
-    height: 32px;
-    width: 24px;
-    position: absolute;
-    right: 30px;
-    top: 62px;
 }
 
 .enquiry-band .enquiry-topi {
