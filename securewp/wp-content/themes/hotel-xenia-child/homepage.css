@@ -57,7 +57,7 @@
 .enquiry-band .enquiry-date-picker {
 	width: auto;
 	position: center;
-	margin: 40px 0 40px 20px;
+	margin: 62px 20px 40px 0;
     background: #E6E6E6;
 }
 
@@ -75,13 +75,13 @@
     height: 32px;
     width: 24px;
     position: absolute;
-    right: 12px;
-    top: 41px;
+    right: 30px;
+    top: 62px;
 }
 
 .enquiry-band .enquiry-topi {
     margin-top: -72px;
-    position: absolute;
+    position: relative;
 }
 
 .booking-enquiry {
@@ -125,7 +125,6 @@
     text-transform: none;
     color: #fff !important;
     font-weight: 100;
-    margin-left: 20px;
 }
 
 .last-text-over-title h1{

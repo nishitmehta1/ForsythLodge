@@ -9,7 +9,7 @@ Template Name: homepage template
 	  	<li><a class="fb png-img" href="https://www.facebook.com/forsythsatpura" target="_blank"></a></li>
 		<li><a class="twitter png-img" href="https://twitter.com/ForsythLodge" target="_blank"></a></li>
 		<li><a class="insta png-img" href="https://www.instagram.com/forsythlodge" target="_blank"></a></li>
-		<li class="book-now-btn"><a class="book-now" href="https://www.instagram.com/forsythlodge" target="_blank">Book Now</a></li>
+		<li class="book-now-btn"><a class="book-now" href="https://www.secure-booking-engine.com/booking/DULFjS_gRRAmFy3hUf4mvgYEIEa8yE2YEyf_9yU9AaOGW0BdCPc-tQ3mnfrGdsjL/1206/" target="_blank">Book Now</a></li>
 	</ul>
 </div>
 

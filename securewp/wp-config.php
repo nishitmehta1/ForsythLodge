@@ -20,22 +20,29 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp_forsythlodge_new');
 
-/** MySQL database username */
-define('DB_USER', 'root');
-
-/** MySQL database password */
-define('DB_PASSWORD', '');
-
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
-
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
-
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+if($env == 'PROD') {
+    if (!defined('DB_NAME')) {
+        define('DB_NAME', '877854_forsyth_lodge');
+    }
+    if (!defined('DB_USER')) {
+        define('DB_USER', '877854_fl_user');
+    }
+    if (!defined('DB_PASSWORD')) {
+        define('DB_PASSWORD', 'SamplePass@123');
+    }
+    if (!defined('DB_HOST')) {
+        define('DB_HOST', 'mariadb-023.wc1.ord1.stabletransit.com');
+    }
+} else {
+   define('DB_NAME', 'wp_forsythlodge_new');
+	/** MySQL database username */
+	define('DB_USER', 'root');
+	/** MySQL database password */
+	define('DB_PASSWORD', '');
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+}
 
 /**#@+
  * Authentication Unique Keys and Salts.

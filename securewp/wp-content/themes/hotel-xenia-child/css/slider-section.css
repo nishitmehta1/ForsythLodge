@@ -166,6 +166,80 @@
 	display: none !important;
 }
 
+/* TRIP ADVISOR */
+.trip-advisor {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.third {
+	margin-top: 100px;
+	background-color: #FFF3E6;
+}
+
+#sync33 {
+	margin: 0 0 70px;
+}
+
+.trip-advisor .rating-section .stars-section{
+	width: 150px;
+	clear: both;
+	margin: 0 auto;
+}
+
+.trip-advisor .rating-section {
+	text-align: center;
+}
+
+.trip-advisor .rating-stars {
+	width: 20px !important;
+	float: left;
+	margin: 0 5px 15px;
+}
+
+.trip-advisor .rating-number {
+	font-family: "Libre Baskerville";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.trip-advisor .owl-theme .owl-dots{
+	text-align: center;
+}
+
+.trip-advisor-icon{
+	margin-top: 75px;
+}
+.trip-advisor-icon .tour-title{
+	position: relative;
+    top: -35px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.tour-summary {
+	font-family: "Libre Baskerville";
+	font-style: italic;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 100%;
+	color: #2A2A2A;
+	margin-top: 40px;
+}
+
+.tour-user{
+	font-family: "Libre Baskerville";
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: #A79F97;
+	margin-bottom: 35px;
+}
+
 @media (min-width: 1200px) {
 	.slider-left img {
 		height: 560px;
@@ -179,6 +253,9 @@
 	}
 	.tour-additional-info {
 	    margin-top: 20px;
+	}
+	.trip-advisor-icon{
+		margin-top: 80px;
 	}
 	.tour-buttons {
 	    margin-top: 40px;
@@ -215,6 +292,12 @@
 @media (max-width: 767px) {
 	.owl-theme .owl-nav {
 		display: none;
+	}
+	.trip-advisor-icon{
+		margin-top: 0;
+	}
+	#sync33 {
+	    margin: 0 0 20px;
 	}
 	.content-carousel {
 	    padding: 50px 20px 35px;

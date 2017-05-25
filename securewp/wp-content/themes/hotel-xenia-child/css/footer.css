@@ -1,3 +1,7 @@
+.footer{
+	display: none; /*Cant see it in the designs, so hiding it*/
+}
+
 footer {
 	text-align: center;
 	padding: 32px 15px;

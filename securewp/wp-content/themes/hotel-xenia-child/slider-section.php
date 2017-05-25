@@ -144,7 +144,84 @@
 			</p>
 			<div class="button-wrapper">
 				<a href="#" class="filled-button brown">About Satpura</a>
-				<a href="#" class="filled-button">Getting here</a>
+				<a href="#" class="filled-button">About Forsyth</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="slider-section third">
+	<div class="row row-eq-height">
+		<div class="col-md-12 content-carousel-parent">
+			<div class="col-lg-6 col-md-12 col-sm-12 trip-advisor">
+				<div class="content-carousel">
+					<div class="tour-additional-info trip-advisor-icon">
+						<img src="<?php echo get_bloginfo("template_url"); ?>/images/trip-icon.png">
+						<h2 class="tour-title">TripAdvisor <br>Customer Testimonials</h2>
+					</div>
+					<div id="sync33" class="owl-carousel owl-theme">
+					  	<div class="item">
+					  		<div class="rating-section">
+					  			<div class="stars-section">
+					  				<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+					  			</div>
+					  			<p class="rating-number">5/5</p>
+					  		</div>
+					    	<p class="tour-description">The hills of the Satpura range are beautifully preserved in the Satpura National Park. Located bang right in the centre of India in Madhya Pradesh, this Teak and Sal based deciduous forest has a varied ecology. Apart from viewing tigers and leopards, you might also be privy to the Nilgai, the Bengal Fox and the Rusty Spotted Cat. Not only that, the avian wildlife will also impress you with the Bar headed Geese, Black Eagle and the Shahin Falcon.</p>
+					    	<p class="tour-summary">"The hills of the Satpura range are beautifully preserved"</p>
+					    	<p class="tour-user">@Sudipto De</p>
+					    </div>
+					    <div class="item">
+					    	<div class="rating-section">
+					  			<div class="stars-section">
+					  				<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+					  			</div>
+					  			<p class="rating-number">5/5</p>
+					  		</div>
+					  		<p class="tour-description">One of the most authentic lodges of India. 4 hours away from Bhopal. 1 hour away from Pipariya Train Station. Not inexpensive. 5 star food, service and accommodation. Only for hardcore wildlife animal and birding enthusiasts. A very popular destination with international tourists. Satpura is a wildlife photographer's paradise. Leopards, Sloth bears, Gaurs, Wild Boars, the occasional tiger, crocodiles, giant squirrels, langurs, Sambars, Spotted dears, Black bucks, Nilgais, rear snakes, dragonflies and over 300 birds, including migratory ones.</p>
+					    	<p class="tour-summary">"Not inexpensive. 5 star food, service and accommodation"</p>
+					    	<p class="tour-user">@Rajesh Krishnan</p>
+					    </div>
+					    <div class="item">
+					    	<div class="rating-section">
+					  			<div class="stars-section">
+					  				<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+					  			</div>
+					  			<p class="rating-number">5/5</p>
+					  		</div>
+					  		<p class="tour-description">This is where our family got initiated into the ways of the wild. Easily the best Naturalists in India. Will get your children to fall in love with animals and birds. Been there twice in 2 years. Only 12 rooms (including some with terrace bedding) with a small swimming pool. No wifi, no TV and no phone network 😎. Booking needed much in advance 3-4 months  at least. Unless you get lucky with someone else's last minute cancellation. Don't forget to book Govt run Jeep Safari rides - really cool, online booking gets sold out real fast. All in all, light years ahead of Jim Corbett, minus the tiger density.</p>
+					    	<p class="tour-summary">"Been there twice in 2 years."</p>
+					    	<p class="tour-user">@Chakraborty Swati</p>
+					    </div>
+					    <div class="item">
+					    	<div class="rating-section">
+					  			<div class="stars-section">
+					  				<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+						  			<img class="rating-stars" src="<?php echo get_bloginfo("template_url"); ?>/images/tripadvisor-stars.svg">
+					  			</div>
+					  			<p class="rating-number">5/5</p>
+					  		</div>
+					  		<p class="tour-description">When you’ve got past the preliminaries; there is landscape that opens out like an ancient text to reveal the hieroglyphs of animal presence, there are trees to touch, birds to follow, and an endless series of insect curiosities to stop and wonder at.</p>
+					    	<p class="tour-summary">"An unforgettable stay"</p>
+					    	<p class="tour-user">@Theresa_Astorm</p>
+					    </div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

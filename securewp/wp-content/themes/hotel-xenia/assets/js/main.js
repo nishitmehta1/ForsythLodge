@@ -9,6 +9,7 @@
         this.syncOwlCarouselFirstSection();
         this.syncOwlCarouselSecondSection();
         this.syncOwlCarouselSecondSectionMobileVersion();
+        this.syncOwlCarouselTripAdvisor();
         this.enquiryDatePicker();
       },
 
@@ -232,6 +233,23 @@
           var number = $(this).index();
           sync111.data('owl.carousel').to(number, 300, true);
         });
+      },
+
+      syncOwlCarouselTripAdvisor: function() {
+        var sync1 = $("#sync33");
+
+        sync1.owlCarousel({
+          items : 1,
+          slideSpeed : 1000,
+          nav: true,
+          autoplay: false,
+          dots: true,
+          loop: true,
+          touchDrag  : false,
+          mouseDrag  : false,
+          animateIn: 'fadeIn',
+          animateOut: 'fadeOut',
+        }).on('changed.owl.carousel');
       },
 
       googleMap: function() {
