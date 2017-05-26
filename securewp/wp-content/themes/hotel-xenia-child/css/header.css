@@ -131,6 +131,10 @@ a.menu-toggler span.lines, a.menu-toggler span.lines:before, a.menu-toggler span
 	height: 550px !important;
 }
 
+.main_nav_wrapper > .primary_nav.hidden_on_header_stuck {
+	padding-right:0 !important
+}
+
 @media (min-width: 992px) {
 	.toggler_and_tools{
 		display: none;
