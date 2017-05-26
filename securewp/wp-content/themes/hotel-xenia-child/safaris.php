@@ -27,12 +27,12 @@ Template Name: safaris template
 	</div>
 </div>
 
-<div class="first-row">
+<div class="first-row safaris-page">
 	<div class="row row-eq-height">
-		<div class="col-md-6 left-container">
+		<div class="col-md-6 img-container">
 			<img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-1.jpg"/>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 content-carousel-parent">
 			<p class="tour-category">EXPERIENCES</p>
 	    	<h2 class="tour-title">Satpura Walk Safari</h2>
 	    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>

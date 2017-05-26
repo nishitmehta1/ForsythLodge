@@ -19,6 +19,7 @@ Template: hotel-xenia
 @import "css/footer.css";
 @import "css/header.css";
 @import "homepage.css";
+@import "css/safaris.css";
 
 body {
 	background: white;
