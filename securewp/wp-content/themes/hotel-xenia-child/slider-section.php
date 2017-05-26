@@ -14,25 +14,25 @@
 					<div id="sync2" class="owl-carousel owl-theme">
 					  	<div class="item">
 					  		<p class="tour-category">EXPERIENCES</p>
-					    	<h2 class="tour-title">Satpura Walk Safaris </h2>
+					    	<h2 class="tour-title">Satpura Walk Safari</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
 					    	<p class="tour-description">When you’ve got past the preliminaries; there is landscape that opens out like an ancient text to reveal the hieroglyphs of animal presence, there are trees to touch, birds to follow, and an endless series of insect curiosities to stop and wonder at.</p>
 					    </div>
 					    <div class="item">
-					  		<p class="tour-category">EXPERIENCES 1</p>
-					    	<h2 class="tour-title">Satpura Walk Safaris 1</h2>
+					  		<p class="tour-category">EXPERIENCES</p>
+					    	<h2 class="tour-title">Satpura Walk Safari 1</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
 					    	<p class="tour-description">When you’ve got past the preliminaries; there is landscape that opens out like an ancient text to reveal the hieroglyphs of animal presence, there are trees to touch, birds to follow, and an endless series of insect curiosities to stop and wonder at.</p>
 					    </div>
 					    <div class="item">
-					  		<p class="tour-category">EXPERIENCES 2</p>
-					    	<h2 class="tour-title">Satpura Walk Safaris 2</h2>
+					  		<p class="tour-category">EXPERIENCES</p>
+					    	<h2 class="tour-title">Satpura Walk Safari 2</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
 					    	<p class="tour-description">When you’ve got past the preliminaries; there is landscape that opens out like an ancient text to reveal the hieroglyphs of animal presence, there are trees to touch, birds to follow, and an endless series of insect curiosities to stop and wonder at.</p>
 					    </div>
 					    <div class="item">
-					  		<p class="tour-category">EXPERIENCES 3</p>
-					    	<h2 class="tour-title">Satpura Walk Safaris 3</h2>
+					  		<p class="tour-category">EXPERIENCES</p>
+					    	<h2 class="tour-title">Satpura Walk Safari 3</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
 					    	<p class="tour-description">When you’ve got past the preliminaries; there is landscape that opens out like an ancient text to reveal the hieroglyphs of animal presence, there are trees to touch, birds to follow, and an endless series of insect curiosities to stop and wonder at.</p>
 					    </div>
@@ -67,6 +67,8 @@
 			<div id="sync111" class="owl-carousel owl-theme">
 				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-2.jpg"/></div>
 				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-1.jpg"/></div>
+				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-1.jpg"/></div>
+				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-1.jpg"/></div>
 			</div>
 		</div>
 		<div class="col-md-6 content-carousel-parent">
@@ -74,21 +76,33 @@
 				<div class="content-carousel">
 					<div id="sync222" class="owl-carousel owl-theme">
 					  	<div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
-					    	<h2 class="tour-title">Satpura Canoe Safaris</h2>
+					  		<p class="tour-category">SAFARIS</p>
+					    	<h2 class="tour-title">JEEP SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">The magic of being in a canoe is to paddle quietly along the shore, drifting into little bays and inlets to watch birds and animals coming down to water unmindful of the boat - a wilderness experience to be savoured. And then to paddle back across water turned to liquid gold in the sunset while birds arrow back to roost across a purple sky.</p>
+					    	<p class="tour-description">Jeep Safaris are an exciting way of exploring the wilderness on wheels. Covering a range of habitats in a short time, you will discover favoured resting and feeding spots, watch hundreds of birds who call Satpura their home, track the ever elusive predators and learn about the rich diversity of flora and fauna, all from an open topped jeep.</p>
 					    </div>
 					    <div class="item">
-					  		<p class="tour-category">ACTIVITIES 1</p>
-					    	<h2 class="tour-title">Satpura Canoe Safaris 1</h2>
+					  		<p class="tour-category">ACTIVITIES</p>
+					    	<h2 class="tour-title">WALKING SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">The magic of being in a canoe is to paddle quietly along the shore, drifting into little bays and inlets to watch birds and animals coming down to water unmindful of the boat - a wilderness experience to be savoured. And then to paddle back across water turned to liquid gold in the sunset while birds arrow back to roost across a purple sky.</p>
-					    </div>
+					    	<p class="tour-description">To truly understand the secret ways of the jungle, to appreciate the workings of its innermost recesses, to observe and interpret the signs and tracks of wildlife through the forest, to savour the smell, sounds and sense of wilderness - you have to take to your feet.</p>
+						</div>					    
+						<div class="item">
+					  		<p class="tour-category">ACTIVITIES</p>
+					    	<h2 class="tour-title">CANOE SAFARI</h2>
+					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
+					    	<p class="tour-description">Canoeing on the Denwa river is a breathtaking affair. This pleasant change of pace and setting encourages exploration while paddling into little bays to get a glimpse of the rich fauna. The birds and animals blend seamlessly into their vibrant world, unmindful of your presence. Early winter mornings are surreal with the mist rising from the water while the sun rises in the blue sky.</p>
+						</div>					    
+						<div class="item">
+					  		<p class="tour-category">ACTIVITIES</p>
+					    	<h2 class="tour-title">DUSK DRIVE</h2>
+					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
+					    	<p class="tour-description">As enjoyable as it is to watch wildlife in daylight, darkness brings a whole new level of excitement. The Dusk Safaris give access to the buffer zone of Satpura National Park, around the villages in late evenings and dusk time. Our lodge’s naturalist and a designated forest guide expertly help you observe animals’ nocturnal lives under the stars.</p>
+						</div>
 					</div>
 					<div class="tour-additional-info">
 						<div class="tour-buttons">
-							<a href="#" class="bordered-button">Explore all activities</a>
+							<a href="#" class="bordered-button">Explore all safaris</a>
 						</div>
 					</div>
 				</div>
@@ -102,21 +116,33 @@
 				<div class="content-carousel">
 					<div id="sync22" class="owl-carousel owl-theme">
 					  	<div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
-					    	<h2 class="tour-title">Satpura Canoe Safaris</h2>
+					  		<p class="tour-category">SAFARIS</p>
+					    	<h2 class="tour-title">JEEP SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">The magic of being in a canoe is to paddle quietly along the shore, drifting into little bays and inlets to watch birds and animals coming down to water unmindful of the boat - a wilderness experience to be savoured. And then to paddle back across water turned to liquid gold in the sunset while birds arrow back to roost across a purple sky.</p>
+					    	<p class="tour-description">Jeep Safaris are an exciting way of exploring the wilderness on wheels. Covering a range of habitats in a short time, you will discover favoured resting and feeding spots, watch hundreds of birds who call Satpura their home, track the ever elusive predators and learn about the rich diversity of flora and fauna, all from an open topped jeep.</p>
 					    </div>
 					    <div class="item">
-					  		<p class="tour-category">ACTIVITIES 1</p>
-					    	<h2 class="tour-title">Satpura Canoe Safaris 1</h2>
+					  		<p class="tour-category">ACTIVITIES</p>
+					    	<h2 class="tour-title">WALKING SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">The magic of being in a canoe is to paddle quietly along the shore, drifting into little bays and inlets to watch birds and animals coming down to water unmindful of the boat - a wilderness experience to be savoured. And then to paddle back across water turned to liquid gold in the sunset while birds arrow back to roost across a purple sky.</p>
-					    </div>
+					    	<p class="tour-description">To truly understand the secret ways of the jungle, to appreciate the workings of its innermost recesses, to observe and interpret the signs and tracks of wildlife through the forest, to savour the smell, sounds and sense of wilderness - you have to take to your feet.</p>
+						</div>					    
+						<div class="item">
+					  		<p class="tour-category">ACTIVITIES</p>
+					    	<h2 class="tour-title">CANOE SAFARI</h2>
+					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
+					    	<p class="tour-description">Canoeing on the Denwa river is a breathtaking affair. This pleasant change of pace and setting encourages exploration while paddling into little bays to get a glimpse of the rich fauna. The birds and animals blend seamlessly into their vibrant world, unmindful of your presence. Early winter mornings are surreal with the mist rising from the water while the sun rises in the blue sky.</p>
+						</div>					    
+						<div class="item">
+					  		<p class="tour-category">ACTIVITIES</p>
+					    	<h2 class="tour-title">DUSK DRIVE</h2>
+					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
+					    	<p class="tour-description">As enjoyable as it is to watch wildlife in daylight, darkness brings a whole new level of excitement. The Dusk Safaris give access to the buffer zone of Satpura National Park, around the villages in late evenings and dusk time. Our lodge’s naturalist and a designated forest guide expertly help you observe animals’ nocturnal lives under the stars.</p>
+						</div>
 					</div>
 					<div class="tour-additional-info">
 						<div class="tour-buttons">
-							<a href="#" class="bordered-button">Explore all activities</a>
+							<a href="#" class="bordered-button">Explore all safaris</a>
 						</div>
 					</div>
 				</div>
@@ -124,6 +150,8 @@
 		</div>
 		<div class="col-md-6 slider-left">
 			<div id="sync11" class="owl-carousel owl-theme">
+				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-2.jpg"/></div>
+				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-1.jpg"/></div>
 				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-2.jpg"/></div>
 				<div class="item"><img src="<?php echo get_bloginfo("template_url"); ?>/images/slide-1.jpg"/></div>
 			</div>

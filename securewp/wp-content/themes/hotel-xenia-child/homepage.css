@@ -124,3 +124,7 @@
 .last-text-over-title h2{
     top: 35% !important;
 }
+
+.ui-datepicker th{
+    font-weight: 100 !important;
+}

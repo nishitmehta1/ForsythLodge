@@ -16,18 +16,18 @@ Template Name: homepage template
 		</div>
 	</div>
 	<div class="enquiry-band">
-	<img class="enquiry-topi" src="<?php echo get_bloginfo("template_url"); ?>/images/enquiry-topi.svg"/>
-	<div class="enquiry-topi"></div>
-	<form class="booking-enquiry">
-		<div class="date-picker-container">
-			<input class="enquiry-date-picker" id="arrival-date" type="text" name="arrival-date" placeholder="Select arrival date">
-		</div>
-		<div class="date-picker-container">
-			<input class="enquiry-date-picker" id="departure-date" type="text" name="departure-date" placeholder="Select departure date">
-		</div>
-		<input class="enquiry-submit" type="submit" value="Check availability">
-	</form>
-</div>
+		<img class="enquiry-topi" src="<?php echo get_bloginfo("template_url"); ?>/images/enquiry-topi.svg"/>
+		<div class="enquiry-topi"></div>
+		<form class="booking-enquiry">
+			<div class="date-picker-container">
+				<input class="enquiry-date-picker" id="arrival-date" type="text" name="arrival-date" placeholder="Select arrival date">
+			</div>
+			<div class="date-picker-container">
+				<input class="enquiry-date-picker" id="departure-date" type="text" name="departure-date" placeholder="Select departure date">
+			</div>
+			<input class="enquiry-submit" type="submit" value="Check availability">
+		</form>
+	</div>
 </div>
 
 

@@ -16,6 +16,7 @@
 
       loadPreHeader: function() {
         $( '<div class="pre-primary-menu"> <ul class="second-menu"> <li><a class="fb png-img" href="https://www.facebook.com/forsythsatpura" target="_blank"></a></li><li><a class="twitter png-img" href="https://twitter.com/ForsythLodge" target="_blank"></a></li><li><a class="insta png-img" href="https://www.instagram.com/forsythlodge" target="_blank"></a></li> <li class="book-now-btn"><a class="book-now" href="https://www.secure-booking-engine.com/booking/DULFjS_gRRAmFy3hUf4mvgYEIEa8yE2YEyf_9yU9AaOGW0BdCPc-tQ3mnfrGdsjL/1206/" target="_blank">Book Now</a></li></ul></div>' ).prependTo($(".header .mainbar").children('[class^=container]'));
+        $('.content_main>.container').removeClass('container').addClass('container-fluid');
       },
 
       syncOwlCarouselFirstSection: function() {

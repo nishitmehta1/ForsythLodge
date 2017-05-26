@@ -1,3 +1,8 @@
+.content_main>.container-fluid{
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
 #page_wrapper .header.transparent {
     background-color: transparent !important;
 }
@@ -102,6 +107,30 @@
 	top: 75%;
 }
 
+a.menu-toggler span.title {
+	padding-right: 48px;
+	font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.toggler_and_tools {
+	top: 38%;
+}
+
+a.menu-toggler span.lines, a.menu-toggler span.lines:before, a.menu-toggler span.lines:after{
+	height: 2px;
+}
+
+.inner-pages-bg .text-center{
+	position: relative !important;
+	top: 300px !important;
+	margin: 0 !important;
+}
+
+.inner-pages-bg{
+	height: 550px !important;
+}
+
 @media (min-width: 992px) {
 	.toggler_and_tools{
 		display: none;
@@ -114,5 +143,18 @@
 	}
 	.main_nav_wrapper{
 		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.pre-primary-menu li{
+		display: none;
+	}
+	.pre-primary-menu li:last-child{
+		display: inline-block;
+	}
+	.pre-primary-menu{
+		top: 87px;
+		margin-right: -17px;
 	}
 }
