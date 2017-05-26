@@ -75,29 +75,29 @@
 			<div class="col-md-12">
 				<div class="content-carousel">
 					<div id="sync222" class="owl-carousel owl-theme">
-					  	<div class="item">
+						<div class="item">
 					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">JEEP SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">Jeep Safaris are an exciting way of exploring the wilderness on wheels. Covering a range of habitats in a short time, you will discover favoured resting and feeding spots, watch hundreds of birds who call Satpura their home, track the ever elusive predators and learn about the rich diversity of flora and fauna, all from an open topped jeep.</p>
+					    	<p class="tour-description">Jeep Safaris are an exciting way of exploring the wilderness on wheels. This is an exclusive experience as the number of vehicles is restricted by the forest department, steering clear of overcrowding.</p>
 					    </div>
 					    <div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
+					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">WALKING SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">To truly understand the secret ways of the jungle, to appreciate the workings of its innermost recesses, to observe and interpret the signs and tracks of wildlife through the forest, to savour the smell, sounds and sense of wilderness - you have to take to your feet.</p>
+					    	<p class="tour-description">Step out of the vehicular route and walk across the forest to let the wild envelop you. See the jungle up close and appreciate its minutest details, which you miss from four feet off the ground.</p>
 						</div>					    
 						<div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
+					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">CANOE SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">Canoeing on the Denwa river is a breathtaking affair. This pleasant change of pace and setting encourages exploration while paddling into little bays to get a glimpse of the rich fauna. The birds and animals blend seamlessly into their vibrant world, unmindful of your presence. Early winter mornings are surreal with the mist rising from the water while the sun rises in the blue sky.</p>
+					    	<p class="tour-description">Canoeing on the Denwa river is a breathtaking affair. This pleasant change of pace and setting encourages exploration while paddling into little bays to get a glimpse of the rich fauna. </p>
 						</div>					    
 						<div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
+					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">DUSK DRIVE</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">As enjoyable as it is to watch wildlife in daylight, darkness brings a whole new level of excitement. The Dusk Safaris give access to the buffer zone of Satpura National Park, around the villages in late evenings and dusk time. Our lodge’s naturalist and a designated forest guide expertly help you observe animals’ nocturnal lives under the stars.</p>
+					    	<p class="tour-description">As enjoyable as it is to watch wildlife in daylight, darkness brings a whole new level of excitement. The Dusk Safaris give access to the buffer zone of Satpura National Park, around the villages in late evenings and dusk time.</p>
 						</div>
 					</div>
 					<div class="tour-additional-info">
@@ -119,25 +119,25 @@
 					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">JEEP SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">Jeep Safaris are an exciting way of exploring the wilderness on wheels. Covering a range of habitats in a short time, you will discover favoured resting and feeding spots, watch hundreds of birds who call Satpura their home, track the ever elusive predators and learn about the rich diversity of flora and fauna, all from an open topped jeep.</p>
+					    	<p class="tour-description">Jeep Safaris are an exciting way of exploring the wilderness on wheels. This is an exclusive experience as the number of vehicles is restricted by the forest department, steering clear of overcrowding.</p>
 					    </div>
 					    <div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
+					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">WALKING SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">To truly understand the secret ways of the jungle, to appreciate the workings of its innermost recesses, to observe and interpret the signs and tracks of wildlife through the forest, to savour the smell, sounds and sense of wilderness - you have to take to your feet.</p>
+					    	<p class="tour-description">Step out of the vehicular route and walk across the forest to let the wild envelop you. See the jungle up close and appreciate its minutest details, which you miss from four feet off the ground.</p>
 						</div>					    
 						<div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
+					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">CANOE SAFARI</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">Canoeing on the Denwa river is a breathtaking affair. This pleasant change of pace and setting encourages exploration while paddling into little bays to get a glimpse of the rich fauna. The birds and animals blend seamlessly into their vibrant world, unmindful of your presence. Early winter mornings are surreal with the mist rising from the water while the sun rises in the blue sky.</p>
+					    	<p class="tour-description">Canoeing on the Denwa river is a breathtaking affair. This pleasant change of pace and setting encourages exploration while paddling into little bays to get a glimpse of the rich fauna. </p>
 						</div>					    
 						<div class="item">
-					  		<p class="tour-category">ACTIVITIES</p>
+					  		<p class="tour-category">SAFARIS</p>
 					    	<h2 class="tour-title">DUSK DRIVE</h2>
 					    	<span class="leaf-image"><img src="<?php echo get_bloginfo("template_url"); ?>/images/leaf.svg"/></span>
-					    	<p class="tour-description">As enjoyable as it is to watch wildlife in daylight, darkness brings a whole new level of excitement. The Dusk Safaris give access to the buffer zone of Satpura National Park, around the villages in late evenings and dusk time. Our lodge’s naturalist and a designated forest guide expertly help you observe animals’ nocturnal lives under the stars.</p>
+					    	<p class="tour-description">As enjoyable as it is to watch wildlife in daylight, darkness brings a whole new level of excitement. The Dusk Safaris give access to the buffer zone of Satpura National Park, around the villages in late evenings and dusk time.</p>
 						</div>
 					</div>
 					<div class="tour-additional-info">
