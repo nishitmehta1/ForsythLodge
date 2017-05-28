@@ -1,0 +1,54 @@
+.initiative_span, .eco_span, .wildlife_span, .reforest_span, .benefit_span, .support_span, .collaboration_span{
+	opacity: 1.00;
+	font-family: "Libre Baskerville";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 100%;
+	color: #3E3E3E;
+	opacity: 1.00;
+}
+
+div#initiative, div#initiative>span , span>img.col-md-12, #support, #eco, #wildlife, #collaboration, #reforest, #benefit{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+#initiative>span.leaf-image{
+	width: auto !important;
+	margin: 15px auto 55px auto ;
+}
+
+.main-image, .main-image>img{
+	width: 100%;
+	height: 660px;
+}
+
+span.background-cream{
+	margin-bottom: 100px;
+	background-repeat:;
+	background: url("http://forsyth.dev/securewp/wp-content/themes/hotel-xenia/images/back-drop-cream.svg");
+	background-size: contain;
+	height: 255px;
+	width: 100%;
+}
+
+span.background-cream>img{
+	width: 1536px;
+	height: 100%;
+}
+
+div#initiative{
+	padding-top: 75px;
+}
+
+
+.text-on-cream{
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 120%;
+	color: #1C1C1C;
+	opacity: 1.00;
+}
